@@ -121,9 +121,14 @@ Page({
 		})
 	},
 	goTianbao: function () {
-		wx.navigateTo({
-			url: `/pages/liangti-form/liangti-form`,
+		wx.showModal({
+			title:'提示',
+			content: '量体数据填报及照片上传  4月14号开通，请考生提前准备照片，照片要求：考生穿着分体式泳装，拍摄彩色照片五张，分别为前全身、侧全身、后全身、前上半身、脸部特写。照片需保证真实性、原始性，不得进行后期加工或修改，照片要求分别率为4800×3600以上，每张照片不得超过10M，按照要求上传。',
+			icon: 'none'
 		})
+		// wx.navigateTo({
+		// 	url: `/pages/liangti-form/liangti-form`,
+		// })
 	},
 	goChaxun: function () {
 		wx.navigateTo({

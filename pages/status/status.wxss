@@ -61,17 +61,17 @@ page {
   z-index: 2;
 }
 .save-btn {
-  position: fixed;
-  z-index: 999;
-  bottom: 20rpx;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: fixed; */
+  /* z-index: 999; */
+  /* bottom: 10rpx; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   height: 90rpx;
   line-height: 90rpx;
   border-radius: 10rpx;
   color: #ffffff;
   margin: 0 auto;
-  margin-top: 0rpx;
+  margin-top: 50rpx;
   background: #459bfe;
   width: 700rpx;
   text-align: center;
