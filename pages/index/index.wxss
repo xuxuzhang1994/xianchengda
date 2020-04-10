@@ -1,7 +1,7 @@
 .home #myVideo {
   width: 100%;
   height: 350rpx;
-  display: -webkit-box;
+  /* display: -webkit-box; */
 }
 .home .slogn {
   background: #ffffff;
@@ -177,4 +177,8 @@
   color: #FDCF2D;
   bottom: 12rpx;
   left: 20rpx;
+}
+.videoImg{
+  width: 100%;
+  height: 100%;
 }

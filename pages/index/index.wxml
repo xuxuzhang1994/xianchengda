@@ -1,8 +1,11 @@
 <!--index.wxml-->
 <view class="home" wx:if="{{!loading}}">
-  <video id="myVideo" poster="{{video_pic}}"
+  <!-- <video id="myVideo" poster="{{video_pic}}"
          wx:if="{{is_show}}"
-         src="{{video}}"></video>
+         src="{{video}}"></video> -->
+  <view id="myVideo">
+    <image src="{{video_pic}}" class="videoImg"></image>
+  </view>
   <view class="slogn" wx:if="{{is_show}}">
     <image mode="scaleToFill" src="/images/home/jingsheng.png"></image>
   </view>

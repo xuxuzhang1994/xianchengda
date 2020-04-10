@@ -227,6 +227,21 @@
 					"id": -1,
 					"name": "pages/pay-success/pay-success",
 					"pathName": "pages/pay-success/pay-success",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/status/status",
+					"pathName": "pages/status/status",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 26,
+					"name": "pages/upload-card/upload-card",
+					"pathName": "pages/upload-card/upload-card",
+					"query": "",
 					"scene": null
 				}
 			]

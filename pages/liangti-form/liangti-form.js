@@ -9,7 +9,13 @@ Page({
 	 */
 	data: {
 		sexArray: ['男', '女'],
+		pic1Str: 'lalllalla',
 		region: '',
+		pic1: '',
+		pic2: '',
+		pic3: '',
+		pic4: '',
+		pic5: '',
 		step: 1,
 		langList: [],
 		mingzuArray: [],
@@ -184,6 +190,11 @@ Page({
 			...originData,
 			openid
 		}
+		form1Data.pic1 = self.pic1;
+		form1Data.pic2 = self.pic2;
+		form1Data.pic3 = self.pic3;
+		form1Data.pic4 = self.pic4;
+		form1Data.pic5 = self.pic5;
 		wx.showModal({
 			content: "请认真核对本人信息，一旦提交无法更改",
 			confirmColor: "#459bfe",
@@ -242,29 +253,81 @@ Page({
 			url: '/pages/upload-card/upload-card'
 		})
 	},
-	chooseCard1: function () {
+	choosePic1: function () {
 		const self = this
 		wx.chooseImage({
 			count: 1,
 			success: async (res) =>{
 				const { tempFilePaths } = res
-				const card_a = await self.upload(tempFilePaths[0])
+				const card_a1 = await self.upload(tempFilePaths[0])
 				self.setData({
-					card_a
+					pic1: card_a1
 				})
 			}
 		})
 	},
-	chooseCard2: function () {
+	choosePic2: function () {
 		const self = this
 		wx.chooseImage({
 			count: 1,
 			success: async (res) =>{
 				const { tempFilePaths } = res
-				const card_b = await self.upload(tempFilePaths[0])
+				const card_a2 = await self.upload(tempFilePaths[0])
 				self.setData({
-					card_b
+					pic2: card_a2
 				})
+			}
+		})
+	},
+	// 上传前全身照片
+	choosePic3: function () {
+		const self = this
+		wx.chooseImage({
+			count: 1,
+			success: async (res) =>{
+				const { tempFilePaths } = res
+				const card_a3 = await self.upload(tempFilePaths[0])
+				self.setData({
+					pic3: card_a3
+				})
+				// self.setData({
+				// 	card_a
+				// })
+			}
+		})
+	},
+	// 上传侧全身照片
+	choosePic4: function () {
+		const self = this
+		wx.chooseImage({
+			count: 1,
+			success: async (res) =>{
+				const { tempFilePaths } = res
+				const card_a4 = await self.upload(tempFilePaths[0])
+				self.setData({
+					pic4: card_a4
+				})
+				// self.setData({
+				// 	card_a
+				// })
+			}
+		})
+	},
+	// 上传后全身照片
+	choosePic5: function () {
+		const self = this
+		let {originData} = self.data
+		wx.chooseImage({
+			count: 1,
+			success: async (res) =>{
+				const { tempFilePaths } = res
+				const card_a5 = await self.upload(tempFilePaths[0])
+				self.setData({
+					pic5:card_a5
+				})
+				// self.setData({
+				// 	originData
+				// })
 			}
 		})
 	},

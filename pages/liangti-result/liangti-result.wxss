@@ -87,9 +87,9 @@ page {
 .form-list .form-item .val .input-placeholder {
   color: #999999;
 }
-.form-list .form-item .val .avatar {
-  width: 200rpx;
-  height: 200rpx;
+.form-list .form-item .val #avatar {
+  width: 160rpx;
+  height: 179rpx;  
 }
 .form-list .form-item .c_333 {
   color: #333333 !important;
@@ -192,4 +192,8 @@ page {
 .no-data image {
   width: 400rpx;
   margin-bottom: 10rpx;
+}
+.defaultPicture{
+  width: 160rpx;
+  height: 179rpx;  
 }

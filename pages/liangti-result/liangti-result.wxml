@@ -1,4 +1,39 @@
 <view class="form-list" wx:if="{{info.card_number}}">
+    <view class="form-item">
+      <view class="lable">上传前全身照片</view>
+      <view class="val">
+        <image wx:if="{{info.pic1}}" id="avatar" src="{{info.pic1}}"></image>
+        <image wx:else class="defaultPicture" src="/images/moren.png"></image>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">上传侧全身照片</view>
+      <view class="val">
+        <image wx:if="{{info.pic2}}" id="avatar" src="{{info.pic2}}"></image>
+        <image wx:else class="defaultPicture" src="/images/moren.png"></image>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">上传后全身照片</view>
+      <view class="val">
+       <image wx:if="{{info.pic3}}" id="avatar" src="{{info.pic3}}"></image>
+      <image wx:else class="defaultPicture" src="/images/moren.png"></image>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">上传前半上身照片</view>
+      <view class="val">
+        <image wx:if="{{info.pic4}}" id="avatar" src="{{info.pic4}}"></image>
+        <image wx:else class="defaultPicture" src="/images/moren.png"></image>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">上传脸部特写照片</view>
+      <view class="val">
+        <image wx:if="{{info.pic5}}" id="avatar" src="{{info.pic5}}"></image>
+        <image wx:else class="defaultPicture" src="/images/moren.png"></image>
+      </view>
+    </view>
   <view class="form-item">
     <view class="lable">身份证号</view>
     <view class="val">

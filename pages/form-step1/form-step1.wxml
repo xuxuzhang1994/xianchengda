@@ -5,8 +5,8 @@
     <image class="biao" src="/images/jiezhi.png"></image>
     <view class="info">
       <view class="title">{{tableInfo.school}}</view>
-      <view class="addresss">所在地：{{tableInfo.area}}</view>
-      <view class="addresss">报名日期：{{tableInfo.times}}</view>
+      <!-- <view class="addresss">所在地：{{tableInfo.area}}</view> -->
+      <!-- <view class="addresss">报名日期：{{tableInfo.times}}</view> -->
     </view>
   </view>
   <form class="form-list" bindsubmit="formSubmit" bindreset="formReset">

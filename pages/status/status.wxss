@@ -75,4 +75,6 @@ page {
   background: #459bfe;
   width: 700rpx;
   text-align: center;
+  position: relative;
+  z-index: 3;
 }
