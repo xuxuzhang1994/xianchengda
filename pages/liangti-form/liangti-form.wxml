@@ -1,0 +1,108 @@
+<!--pages/form-step1/form-step1.wxml-->
+<view class="{{!showCard? '':'hide'}}">
+  <view class="haeder">
+    <image class="bg-img" src="/images/top.png"></image>
+    <image class="biao" src="/images/jiezhi.png"></image>
+    <view class="info">
+      <view class="title">{{tableInfo.school}}</view>
+      <view class="addresss">所在地：{{tableInfo.area}}</view>
+      <view class="addresss">报名日期：{{tableInfo.times}}</view>
+    </view>
+  </view>
+  <view class="video">
+    <image src="/images/shipingtu.png" mode="widthFix" bindtap="play"></image>
+  </view>
+  <form class="form-list" bindsubmit="formSubmit" bindreset="formReset">
+    <view class="form-item">
+      <view class="lable">身份证号</view>
+      <view class="val">
+        <input style="padding-right: 20rpx" name="card_number" maxlength="18" type="idcard" class="input"
+               placeholder-class="input-placeholder"
+               placeholder="请输入"/>
+      </view>
+    </view>
+    <view class="tip">注意：所有量体数据必须为整数或者一位小数；且不能为空！</view>
+    <view class="form-item">
+      <view class="lable">身高</view>
+      <view class="val">
+        <input name="shenggao" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">体重</view>
+      <view class="val">
+        <input name="tizhong" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">kg</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">肩宽</view>
+      <view class="val">
+        <input name="jiankuang" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">胸围</view>
+      <view class="val">
+        <input name="xiongwei" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">腰围</view>
+      <view class="val">
+        <input name="yaowei" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">臀围</view>
+      <view class="val">
+        <input name="tongwei" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">大腿围</view>
+      <view class="val">
+        <input name="datuiwei" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">小腿围</view>
+      <view class="val">
+        <input name="xiaotuiwei" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">上身长</view>
+      <view class="val">
+        <input name="shangshenchang" max="10" type="digit" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">下身长</view>
+      <view class="val">
+        <input name="xiashenchang" maxlength="18" type="idcard" class="input" placeholder-class="input-placeholder"
+               />
+        <span class="danwei">cm</span>
+      </view>
+    </view>
+    <button class="save" formType="submit">提交</button>
+  </form>
+</view>
+

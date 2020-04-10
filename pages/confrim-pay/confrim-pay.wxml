@@ -1,0 +1,41 @@
+<!--pages/confrim-pay/confrim-pay.wxml-->
+<view class="title">
+  <image class="icon" src="/images/pay/wancheng.png"></image>
+  确认订单，等待支付
+</view>
+<view class="disc">剩 <text>{{minutesLeft}}分{{secondsLeft}}秒</text> 自动取消订单，1天取消5次订单后，账号会被锁定，当天无法报名。</view>
+<view class="list">
+  <view class="item">
+    <view class="left">
+      <image class="icon" src="/images/pay/bianhao.png"></image>
+      订单编号
+    </view>
+    <view class="right">{{formdata.order_no}}</view>
+  </view>
+  <view class="item">
+    <view class="left">
+      <image class="icon" src="/images/pay/dingdanjine.png"></image>
+      支付金额
+    </view>
+    <view class="right">￥{{formdata.price}}</view>
+  </view>
+  <view class="item">
+    <view class="left">
+      <image class="icon" src="/images/pay/weixinzhifu.png"></image>
+      微信支付
+    </view>
+    <view class="right"><image class="icon" src="/images/pay/xuanze.png"></image></view>
+  </view>
+</view>
+<view class="confirm">
+  <view class="left">
+    <view class="tip">
+      确认报名后，当前已经选报的科目将无法更改或删除！
+    </view>
+    <view class="tip1">
+      我已阅读并接受报考须知！
+    </view>
+  </view>
+  <image class="icon" src="/images/pay/xuanze.png"></image>
+</view>
+<view class="pay-btn" bindtap="pay">确认支付</view>

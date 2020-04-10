@@ -1,0 +1,10 @@
+<!--pages/help/help.wxml-->
+<view class="list">
+  <view class="item" wx:for="{{list}}">
+    <view class="title" data-index="{{index}}" bindtap="changeIndex">
+      <text>{{item.key}}</text>
+      <image class="{{c_index == index?'rote':''}}" src="/images/arrow_right.png"></image>
+    </view>
+    <text class="disc" wx:if="{{index == c_index}}" >{{item.value}}</text>
+  </view>
+</view>

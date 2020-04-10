@@ -1,0 +1,70 @@
+.header {
+  height: 250rpx;
+  width: 100%;
+  position: relative;
+  padding-top: 60rpx;
+}
+.header .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.header .user-info {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding-left: 40rpx;
+  align-items: center;
+}
+.header .user-info .logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  margin-right: 20rpx;
+}
+.header .user-info .name {
+  color: #ffffff;
+  font-size: 32rpx;
+}
+.card-num {
+  font-weight: bold;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #ffffff;
+  margin-bottom: 10rpx;
+  padding: 0 20rpx;
+}
+.time-list .title {
+  font-weight: bold;
+  position: relative;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 30rpx;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+.time-list .title:after {
+  position: absolute;
+  content: '';
+  width: 6rpx;
+  height: 30rpx;
+  background: #459bfe;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20rpx;
+}
+.time-list .subject-list .subject-item {
+  height: 70rpx;
+  line-height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx 0 30rpx;
+  background: #ffffff;
+}
+.time-list .subject-list .subject-item .score {
+  color: #ff301d;
+}

@@ -1,0 +1,57 @@
+<!--pages/form-step1/form-step1.wxml-->
+<view class="{{!showCard? '':'hide'}}">
+  <view class="haeder">
+    <image class="bg-img" src="/images/top.png"></image>
+    <image class="biao" src="/images/jiezhi.png"></image>
+    <view class="info">
+      <view class="title">{{tableInfo.school}}</view>
+      <view class="addresss">所在地：{{tableInfo.area}}</view>
+      <view class="addresss">报名日期：{{tableInfo.times}}</view>
+    </view>
+  </view>
+  <form class="form-list" bindsubmit="formSubmit2" bindreset="formReset">
+    <!--<view class="form-item">-->
+      <!--<view class="lable">中学名称</view>-->
+      <!--<view class="val">-->
+        <!--<input name="zxmc" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>-->
+      <!--</view>-->
+    <!--</view>-->
+    <view class="form-item">
+      <view class="lable">外语语种</view>
+      <view class="val {{lang.name ? 'c_333': ''}}">
+        <sole-pick-view bindchange="bindLangChange" value="{{lang.id}}" range-key="name" range="{{langList}}">
+          <view class="picker">
+            {{lang.name || '请选择'}}
+          </view>
+        </sole-pick-view>
+        <image class="more" src="/images/arrow_right.png"></image>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">邮政编码</view>
+      <view class="val">
+        <input name="yzbm" maxlength="6" type="number" class="input" placeholder-class="input-placeholder"
+               placeholder="请输入"/>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">收件人姓名</view>
+      <view class="val">
+        <input name="sjrxm" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">收件人邮编</view>
+      <view class="val">
+        <input name="sjreyb" maxlength="6" type="number" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+      </view>
+    </view>
+    <view class="form-item">
+      <view class="lable">收件人地址</view>
+      <view class="val">
+        <input name="sjrdz" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+      </view>
+    </view>
+    <button class="save" formType="submit">确认</button>
+  </form>
+</view>

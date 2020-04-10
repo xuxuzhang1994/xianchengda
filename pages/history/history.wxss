@@ -1,0 +1,93 @@
+page {
+  background: #ffffff;
+}
+.bg {
+  height: 400rpx;
+  width: 100%;
+  position: relative;
+  padding-top: 60rpx;
+}
+.bg .header {
+  height: 400rpx;
+  width: 100%;
+  display: -webkit-box;
+  position: absolute;
+  top: 0;
+}
+.bg .name {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  font-size: 36rpx;
+}
+.bg .name image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  margin-right: 10rpx;
+}
+.form {
+  height: 787rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 6rpx 21rpx 3rpx rgba(134, 134, 134, 0.28);
+  border-radius: 7rpx;
+  padding: 0 30rpx;
+  padding-top: 90rpx;
+  margin: -180rpx 30rpx 0 30rpx;
+  position: relative;
+  z-index: 2;
+}
+.form .title {
+  font-weight: bold;
+  color: #73abff;
+  font-size: 48rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.form .form-item {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+}
+.form .form-item .picker {
+  color: #999999;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.form .form-item .icon {
+  width: 45rpx;
+  height: 35rpx;
+  margin-right: 20rpx;
+}
+.form .form-item .more {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotateZ(90deg);
+}
+.form .form-item sole-pick-view {
+  width: 110%;
+  height: 100%;
+}
+.form .c_333 {
+  color: #333333 !important;
+}
+.form .search {
+  width: 547rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: linear-gradient(76deg, #25c6ff 0%, #37a3ff 100%);
+  border-radius: 40rpx;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 130rpx;
+}

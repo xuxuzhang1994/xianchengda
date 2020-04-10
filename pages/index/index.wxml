@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="home" wx:if="{{!loading}}">
+  <video id="myVideo" poster="{{video_pic}}"
+         wx:if="{{is_show}}"
+         src="{{video}}"></video>
+  <view class="slogn" wx:if="{{is_show}}">
+    <image mode="scaleToFill" src="/images/home/jingsheng.png"></image>
+  </view>
+  <view class="info">
+    <view class="title" wx:if="{{is_show}}">
+      <image mode="scaleToFill" class="bg-img" src="/images/home/biaoti.png"></image>
+      <text>学校简介</text>
+    </view>
+    <view class="detail" data-index="0" bindtap="goDetail">
+      <image class="logo" mode="aspectFill"
+             src="{{schollInfo.cover_pic}}"></image>
+      <view class="text-info">
+        <view class="text">
+          {{schollInfo.des}}
+        </view>
+        <!--<view class="more">查看更多</view>-->
+      </view>
+    </view>
+  </view>
+  <view class="type-list" wx:if="{{is_show}}">
+    <view class="type-item" data-index="1" bindtap="goDetail">
+      <image class="bg-img" mode="aspectFill" src="/images/home/1.png"></image>
+      <view class="name-cn">艺术类简章</view>
+      <text class="name-en">ART SYNOPSIS</text>
+      <view class="more1">GO>></view>
+    </view>
+    <view class="type-item" data-index="2" bindtap="goDetail">
+      <image class="bg-img" mode="aspectFill" src="/images/home/2.png"></image>
+      <view class="name-cn">特色专业</view>
+      <text class="name-en">CHARACTERISTIC \n SPECIALTY</text>
+      <view class="more2">GO>></view>
+    </view>
+    <view class="type-item" data-index="3" bindtap="goDetail">
+      <image class="bg-img" mode="aspectFill" src="/images/home/3.png"></image>
+      <view class="name-cn">考试信息</view>
+      <text class="name-en">EXAMINATION \n INFORMATION</text>
+      <view class="more3">GO>></view>
+    </view>
+    <view class="type-item" data-index="4" bindtap="goDetail">
+      <image class="bg-img" mode="aspectFill" src="/images/home/4.png"></image>
+      <view class="name-cn">历年成绩</view>
+      <text class="name-en">ACHIEVEMENTS \n OVER THE YEARS</text>
+      <view class="more4">GO>></view>
+    </view>
+  </view>
+</view>

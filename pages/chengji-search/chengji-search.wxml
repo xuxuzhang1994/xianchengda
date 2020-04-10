@@ -1,0 +1,14 @@
+<!--pages/history/history.wxml-->
+<image class="header" src="/images/history/top1.png"></image>
+<view class="form">
+  <view class="title">成绩查询</view>
+  <view class="form-item">
+    <image class="icon" src="/images/history/zhunkaozheng.png"></image>
+    <input type="text" bindblur="changeProvince" placeholder="请输入准考证号"/>
+  </view>
+  <view class="form-item">
+    <image class="icon" src="/images/history/shengfenzheng.png"></image>
+    <input type="text" bindblur="changeZy" placeholder="请输入身份证号"/>
+  </view>
+  <view class="search" bindtap="search">查询</view>
+</view>

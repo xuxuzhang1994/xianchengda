@@ -1,0 +1,6 @@
+<!--pages/rich-text/rich-text.wxml-->
+<view class="rich-text">
+  <video wx:if="{{video}}" class="video" src="{{zy_video}}" poster="{{zy_video_pic}}"></video>
+  <rich-text nodes="{{nodes}}"></rich-text>
+  <view wx:if="{{id==1}}" class="save-btn" bindtap="baoming">西安考点报名</view>
+</view>

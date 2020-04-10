@@ -1,0 +1,22 @@
+<view class="picker-view-component" wx:if="{{show}}">
+  <view class="mask"></view>
+  <view class="content">
+    <view class="top-bar">
+      <view class="" bindtap="onCancel">取消</view>
+      <view class="ok" bindtap="onOk">确定</view>
+    </view>
+    <picker-view class="picker-view" indicator-style="height: 50px;" value="{{value}}"
+                 bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{region}}" style="line-height: 50px">{{item.provinceName}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{region[proviceIndex].mallCityList}}" style="line-height: 50px">{{item.cityName}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{region[proviceIndex].mallCityList[cityIndex].mallAreaList}}" style="line-height: 50px">{{item.areaName}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
+<slot bindtap="showTogger"></slot>

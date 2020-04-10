@@ -1,0 +1,75 @@
+page {
+  background: #fff;
+  padding: 0 20rpx;
+}
+.title {
+  text-align: center;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.title .icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.disc {
+  font-size: 26rpx;
+  color: #999999;
+}
+.disc text {
+  color: #ff301d;
+}
+.list .item {
+  height: 130rpx;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.list .item .left {
+  display: flex;
+  align-items: center;
+}
+.list .item .left .icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.list .item .right .icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.confirm {
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #eee;
+  font-size: 24rpx;
+  color: #999;
+}
+.confirm .left {
+  width: 90%;
+}
+.confirm .left .tip1 {
+  color: #ff301d;
+  margin-top: 5rpx;
+}
+.confirm .icon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.pay-btn {
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  background: #459bfe;
+  width: 700rpx;
+  text-align: center;
+}

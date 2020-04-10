@@ -1,0 +1,28 @@
+/* pages/rich-text/rich-text.wxss */
+.rich-text{
+    padding: 10rpx 40rpx;
+    background: #ffffff;
+    min-height: 100vh;
+}
+.rich-text image{
+  width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: -webkit-box !important;
+}
+.video{
+    width: 100%;
+    height: 410rpx;
+}
+.save-btn{
+    height: 90rpx;
+    line-height: 90rpx;
+    border-radius: 10rpx;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 0rpx;
+    background: rgb(69,155,254);
+    width: 100%;
+    text-align: center;
+    margin-top: 40rpx;
+}

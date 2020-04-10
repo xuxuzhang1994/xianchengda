@@ -1,0 +1,10 @@
+<!--pages/pay-success/pay-success.wxml-->
+<view class="success">
+  <image src="/images/icon.png"></image>
+  <view class="info">
+    <view class="title">支付成功</view>
+    <view class="no">订单号: <text>{{no}}</text></view>
+    <view class="price">已付款: <text>￥{{price}}</text></view>
+  </view>
+</view>
+<view class="save" bindtap="go">点击确认后 前往填写量体信息</view>

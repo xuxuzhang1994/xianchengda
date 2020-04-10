@@ -1,0 +1,32 @@
+.upload-card {
+  text-align: center;
+}
+.upload-card .title {
+  font-size: 32rpx;
+  margin-top: 60rpx;
+  text-align: center;
+}
+.upload-card .card1 {
+  margin: 0 auto;
+  width: 500rpx;
+  height: 310rpx;
+  margin-top: 20rpx;
+}
+.upload-card .card2 {
+  margin: 0 auto;
+  width: 500rpx;
+  height: 310rpx;
+  margin-top: 20rpx;
+}
+.upload-card .save {
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: 70rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+  background: #459bfe;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 0;
+}

@@ -1,0 +1,36 @@
+.picker-view-component .content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  z-index: 999;
+}
+.picker-view-component .content .top-bar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0 30rpx;
+}
+.picker-view-component .content .picker-view {
+  width: 100%;
+  height: 250px;
+  bottom: 0;
+  text-align: center;
+  z-index: 2;
+}
+.picker-view-component .mask {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.picker-view-component .ok {
+  color: #459bfe;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "city-pick-view": "/components/city-pick-view/city-pick-view",
+    "sole-pick-view": "/components/sole-pick-view/sole-pick-view"
+  }
+}

@@ -1,0 +1,266 @@
+<view class="form-list">
+  <!--<view class="form-item">-->
+    <!--<view class="lable">考生照片</view>-->
+    <!--<view class="val" bindtap="chooseImg">-->
+      <!--<image class="avatar" src="{{info.avatar}}"></image>-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">姓名</view>-->
+    <!--<view class="val">-->
+      <!--{{info.username}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">性别</view>-->
+    <!--<view class="val">-->
+      <!--{{info.username}}-->
+    <!--</view></view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">民族</view>-->
+    <!--<view class="val">-->
+      <!--{{info.mz}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">政治面貌</view>-->
+    <!--<view class="val">-->
+      <!--{{info.mianmao}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">身份证号</view>-->
+    <!--<view class="val">-->
+      <!--{{info.card_number}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">生源地</view>-->
+    <!--<view class="val">-->
+      <!--{{info.region}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">详细地址</view>-->
+    <!--<view class="val">-->
+      <!--{{info.address}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">联系电话1</view>-->
+    <!--<view class="val">-->
+      <!--{{info.lxdh1}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">联系电话2</view>-->
+    <!--<view class="val">-->
+      <!--{{info.lxdh2}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">中学名称</view>-->
+    <!--<view class="val">-->
+      <!--{{info.lxdh2}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">外语语种</view>-->
+    <!--<view class="val">-->
+      <!--{{lang.name}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">邮政编码</view>-->
+    <!--<view class="val">-->
+      <!--{{info.yzbm}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人姓名</view>-->
+    <!--<view class="val">-->
+      <!--{{info.sjrxm}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人邮编</view>-->
+    <!--<view class="val">-->
+      <!--{{info.sjreyb}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人地址</view>-->
+    <!--<view class="val">-->
+      <!--{{info.sjrdz}}-->
+    <!--</view>-->
+  <!--</view>-->
+  <view class="form-item">
+    <view class="lable">姓名</view>
+    <view class="val">
+      <input name="username" value="{{info.username}}" data-key="username" bindblur="changeInfo" class="input"
+             placeholder-class="input-placeholder"
+             placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">性别</view>
+    <view class="val {{sexArray[info.sex - 1] ? 'c_333': ''}}">
+      <sole-pick-view name="sex" bindchange="bindPickerChange" range="{{sexArray}}">
+        <view class="picker">
+          {{sexArray[info.sex - 1] || '请选择'}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable ">民族</view>
+    <view class="val {{info.mz ? 'c_333': ''}}">
+      <sole-pick-view bindchange="bindMingzuChange" range="{{mingzuArray}}">
+        <view class="picker">
+          {{info.mz || '请选择'}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">政治面貌</view>
+    <view class="val {{info.mianmao ? 'c_333': ''}}">
+      <sole-pick-view name="mianmao" bindchange="bindPickerChangeMianmao" value="{{mianmao}}" range="{{mianmaoArray}}">
+        <view class="picker">
+          {{info.mianmao? info.mianmao: "请选择"}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">外语语种</view>
+    <view class="val {{langList[info.wyyz].name ? 'c_333' : ''}}">
+      <sole-pick-view name="wyyz" bindchange="bindLangChange" value="{{info.lang}}" range-key="name" range="{{langList}}">
+        <view class="picker">
+          {{langList[info.wyyz - 1].name || '请选择'}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">生源地</view>
+    <view class="val {{info.province ? 'c_333' : ''}}">
+      <sole-pick-view bindchange="bindRegionChange" value="{{info.province}}" range="{{shengArray}}">
+        <view class="picker">
+          {{info.province || '请选择'}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">考生号</view>
+    <view class="val">
+      <input class="input"
+             value="{{info.student_number}}"
+             placeholder-class="input-placeholder"
+             data-key="student_number"
+             bindblur="changeInfo"  placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">艺术类准考证照片</view>
+    <view class="val" bindtap="chooseZhunkaozheng">
+      <view>
+        {{!info.exam_avatar ? "请选择" : ""}}
+      </view>
+      <image wx:if="{{info.exam_avatar}}" class="avatar" src="{{info.exam_avatar}}"></image>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">身份证号</view>
+    <view class="val">
+      <input name="card_number" class="input" value="{{info.card_number}}" data-key="card_number" bindblur="changeInfo"
+             placeholder-class="input-placeholder"
+             placeholder="请输入"/>
+    </view>
+  </view>
+  <!--<view class="form-item">-->
+    <!--<view class="lable">上传身份证</view>-->
+    <!--<view class="val" bindtap="chooseCard">-->
+      <!--请上传身份证照片-->
+      <!--<image class="more" src="/images/arrow_right.png"></image>-->
+    <!--</view>-->
+  <!--</view>-->
+  <view class="form-item">
+    <view class="lable">详细地址</view>
+    <view class="val">
+      <input name="address" class="input" value="{{info.address}}" data-key="address"
+             bindblur="changeInfo"
+             placeholder-class="input-placeholder"
+             placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">联系电话</view>
+    <view class="val">
+      <input name="lxdh1" class="input" value="{{info.lxdh1}}" data-key="lxdh1" bindblur="changeInfo"
+             placeholder-class="input-placeholder"
+             placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">联系电话</view>
+    <view class="val">
+      <input name="lxdh2" class="input" value="{{info.lxdh2}}" data-key="lxdh2" bindblur="changeInfo"
+             placeholder-class="input-placeholder"
+             placeholder="请输入"/>
+    </view>
+  </view>
+  <!--<view class="form-item">-->
+    <!--<view class="lable">中学名称</view>-->
+    <!--<view class="val">-->
+      <!--<input name="zxmc" class="input" value="{{info.zxmc}}" data-key="zxmc" bindblur="changeInfo"-->
+             <!--placeholder-class="input-placeholder"-->
+             <!--placeholder="请输入学校名称"/>-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">邮政编码</view>-->
+    <!--<view class="val">-->
+      <!--<input name="yzbm" class="input" value="{{info.yzbm}}" data-key="yzbm" bindblur="changeInfo"-->
+             <!--placeholder-class="input-placeholder"-->
+             <!--placeholder="请输入邮政编码"/>-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人姓名</view>-->
+    <!--<view class="val">-->
+      <!--<input name="sjrxm" class="input" value="{{info.sjrxm}}" data-key="sjrxm" bindblur="changeInfo"-->
+             <!--placeholder-class="input-placeholder"-->
+             <!--placeholder="请输入收件人姓名"/>-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人邮编</view>-->
+    <!--<view class="val">-->
+      <!--<input name="sjreyb" class="input" value="{{info.sjreyb}}" data-key="sjreyb" bindblur="changeInfo"-->
+             <!--placeholder-class="input-placeholder"-->
+             <!--placeholder="请输入收件人邮编"/>-->
+    <!--</view>-->
+  <!--</view>-->
+  <!--<view class="form-item">-->
+    <!--<view class="lable">收件人地址</view>-->
+    <!--<view class="val">-->
+      <!--<input name="sjrdz" class="input" value="{{info.sjrdz}}" data-key="sjrdz" bindblur="changeInfo"-->
+             <!--placeholder-class="input-placeholder"-->
+             <!--placeholder="请输入收件人地址"/>-->
+    <!--</view>-->
+  <!--</view>-->
+</view>
+<view class="pay-bar">
+  <view class="left">
+    合计：<text>￥{{formdata.price}}</text>
+  </view>
+  <view class="right" bindtap="go">去支付</view>
+</view>

@@ -1,0 +1,47 @@
+page {
+  background: #ffffff;
+}
+.header {
+  height: 400rpx;
+  width: 100%;
+  display: -webkit-box;
+}
+.form {
+  width: 631rpx;
+  height: 787rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 6rpx 21rpx 3rpx rgba(134, 134, 134, 0.28);
+  border-radius: 7rpx;
+  margin: 0 auto;
+  transform: translateY(-180rpx);
+  padding: 0 30rpx;
+  padding-top: 90rpx;
+}
+.form .title {
+  font-weight: bold;
+  color: #73abff;
+  font-size: 48rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.form .form-item {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.form .form-item .icon {
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 20rpx;
+}
+.form .search {
+  width: 547rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: linear-gradient(76deg, #25c6ff 0%, #37a3ff 100%);
+  border-radius: 40rpx;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 230rpx;
+}

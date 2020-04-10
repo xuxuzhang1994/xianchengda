@@ -1,0 +1,57 @@
+.haeder {
+  position: relative;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+}
+.haeder .bg-img {
+  position: absolute;
+  width: 100%;
+  height: 200rpx;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.haeder .info {
+  position: relative;
+  color: #ffffff;
+  z-index: 3;
+  padding: 0 20rpx;
+}
+.haeder .info text {
+  color: #ff301d;
+  font-weight: bold;
+}
+.haeder .info .title {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.haeder .info .addresss {
+  font-size: 24rpx;
+}
+.list {
+  padding: 0 30rpx;
+  background: #ffffff;
+}
+.list .item {
+  display: flex;
+  height: 120rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+}
+.list .item .left {
+  display: flex;
+  align-items: center;
+}
+.list .item .left image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+.list .item .val {
+  color: #999999;
+}
+.c_blue {
+  color: #459bfe !important;
+}

@@ -1,0 +1,88 @@
+page{
+  min-height: 100vh;
+  padding-bottom: 120rpx;
+  //background: url("https://baoming.goboosoft.com/uploads/images/shuiyin.png") repeat center;
+  //background: url("https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1861627709,1630773149&fm=26&gp=0.jpg") repeat center;
+}
+.status-list{
+  .bold{
+    font-weight: bold;
+  }
+  .red{
+    color: #ff301d !important;
+  }
+  .status-item{
+    min-height: 80rpx;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    display: flex;
+    padding: 0 20rpx;
+    .lable{
+      font-size: 36rpx;
+      //min-width: 200rpx;
+      //max-width: 200rpx;
+    }
+    .val{
+      color: #333333;
+      font-size: 30rpx;
+      //flex-wrap: wrap;
+      //flex-grow: 1;
+    }
+  }
+}
+.qrcode{
+  width: 100%;
+  height: 450rpx;
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  image{
+    width: 400rpx;
+    height: 400rpx;
+  }
+  view{
+    width: 100%;
+    font-size: 26rpx;
+    text-align: center;
+  }
+}
+.tip{
+  color: #ff301d;
+  font-size: 30rpx;
+  padding: 0 15rpx;
+  display: block;
+  line-height: 45rpx;
+}
+.mask{
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  //opacity: .05;
+  //filter: alpha(opacity=5);
+  background-color: #fff;
+  background: url("https://baoming.goboosoft.com/uploads/images/shuiyin.png") repeat center;
+  background-size: 280rpx;
+  z-index: 2;
+}
+.save-btn{
+  position: fixed;
+  z-index: 999;
+  bottom: 20rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 0rpx;
+  background: rgb(69,155,254);
+  width: 700rpx;
+  text-align: center;
+}

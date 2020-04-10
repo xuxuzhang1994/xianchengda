@@ -1,0 +1,48 @@
+<!--pages/mine/mine.wxml-->
+<view class="header">
+  <image class="bg-img" src="/images/top.png"></image>
+  <view class="user-info">
+    <image class="logo" src="{{!userInfo.nickName? '/images/mine/touxiang.png' : userInfo.avatarUrl}}"></image>
+    <button wx:if="{{!userInfo.nickName}}" class="name" size="default" open-type="getUserInfo"
+            hover-class="none"
+            bindgetuserinfo="bindGetUserInfo">立即登录</button>
+    <view class="name">{{userInfo.nickName}}</view>
+  </view>
+</view>
+<view class="tab-list">
+  <view class="item {{bm_state && !islook ? 'red' : ''}} " bindtap="goStatus">
+    <image class="logo" src="/images/mine/zhunkozhuangtai.png"></image>
+    <view class="text">我的准考状态</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="item" bindtap="goTianbao">
+    <image class="logo" src="/images/shujutianbao.png"></image>
+    <view class="text">量体数据及个人照片填报</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="item" bindtap="goChaxun">
+    <image class="logo" src="/images/shujuchaxun.png"></image>
+    <view class="text">量体数据及个人照片查询</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="item" bindtap="goChengji">
+    <image class="logo" src="/images/mine/chengjichaxun.png"></image>
+    <view class="text">成绩查询</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="item" bindtap="goLianxi">
+    <image class="logo" src="/images/mine/lianxiwomen.png"></image>
+    <view class="text">联系我们</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+  <!--<view class="item" bindtap="goHelp">-->
+    <!--<image class="logo" src="/images/mine/bangzhu.png"></image>-->
+    <!--<view class="text">帮助中心</view>-->
+    <!--<image class="icon-right" src="/images/arrow_right.png"></image>-->
+  <!--</view>-->
+  <view class="item" bindtap="goFapiao">
+    <image class="logo" src="/images/mine/fapiao.png"></image>
+    <view class="text">申请发票</view>
+    <image class="icon-right" src="/images/arrow_right.png"></image>
+  </view>
+</view>

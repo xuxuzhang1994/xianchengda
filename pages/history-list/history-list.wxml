@@ -1,0 +1,63 @@
+<!--pages/history-list/history-list.wxml-->
+<view class="haeder" wx:if="{{list.length > 0}}">
+  <image class="bg-img" src="/images/top.png"></image>
+  <view class="info">
+    <view class="title">{{info.school}}</view>
+    <view class="addresss">所在地：{{info.area}}</view>
+  </view>
+</view>
+<view class="list" wx:for="{{list}}">
+  <view class="title">{{item.title}}</view>
+  <view class="disc">分数线</view>
+  <view class="table">
+    <view class="table-item">
+      <view class="key">专业名称</view>
+      <view class="val">{{item.zhuanye_name}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">批次科类</view>
+      <view class="val">{{item.pici}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">录取人数</view>
+      <view class="val">{{item.lqrs}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">文化课最高分</view>
+      <view class="val">{{item.wh_max_score}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">文化课最低分</view>
+      <view class="val">{{item.wh_min_score}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">文化课平均分</view>
+      <view class="val">{{item.wh_avg_score}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">专业课最高分</view>
+      <view class="val">{{item.zhuanye_max_score }}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">专业课最低分</view>
+      <view class="val">{{item.zhuanye_min_score  }}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">专业课平均分</view>
+      <view class="val">{{item.zhuanye_avg_score}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">综合分最高分</view>
+      <view class="val">{{item.max_score }}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">综合分最低分</view>
+      <view class="val">{{item.min_score}}</view>
+    </view>
+    <view class="table-item">
+      <view class="key">综合分平均分</view>
+      <view class="val">{{item.zong_avg_score}}</view>
+    </view>
+  </view>
+</view>
+<view class="no-default" wx:if="{{list.length == 0}}">暂无数据</view>

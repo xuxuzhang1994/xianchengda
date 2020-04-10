@@ -1,0 +1,48 @@
+<!--pages/status/status.wxml-->
+<view class="status-list" wx:if="{{info}}">
+  <view class="status-item">
+    <view class="lable bold">{{info.xueyuan_name}}</view>
+    <view class="val red">报名成功</view>
+  </view>
+  <view class="status-item">
+    <view class="lable">姓名</view>
+    <view class="val">{{info.username}}</view>
+  </view>
+  <view class="status-item">
+    <view class="lable">身份证</view>
+    <view class="val">{{info.card_number}}</view>
+  </view>
+  <view class="status-item">
+    <view class="lable">报名序列号</view>
+    <view class="val">{{info.exam_number}}</view>
+  </view>
+  <view class="status-item">
+    <view class="lable">报考专业</view>
+    <view class="val">{{info.subject}}</view>
+  </view>
+  <!--<view class="status-item">-->
+    <!--<view class="lable">考试科目</view>-->
+    <!--<view class="val">{{info.xueyuan_name}}</view>-->
+  <!--</view>-->
+  <view class="status-item">
+    <view class="lable">考试时间</view>
+    <!--<view class="val">{{info.exam_time}}</view>-->
+    <view class="val">见官网后续通知</view>
+  </view>
+  <!--<view class="status-item">-->
+    <!--<view class="lable">考试地点</view>-->
+    <!--<view class="val">{{info.exam_address}}</view>-->
+  <!--</view>-->
+</view>
+<view class="qrcode" wx:if="{{info}}">
+  <image src="{{info.qrcode}}"></image>
+  <view>现场确认时请展示此二维码</view>
+</view>
+<view wx:if="{{info}}" class="save-btn" bindtap="baoming">量体数据及个人照片填报</view>
+<view class="no-default" wx:if="{{!info}}">暂无数据</view>
+<text class="tip" >
+  提示：报名成功后，请填写量体信息，否则视为无效报名。
+  1.近期学校将发布《西安工程大学2020年表演专业校考考试指南》，明确具体考试流程及上传视频材料要求，请考生及时查阅，并按照相关要求完成考试。
+  2.若发现考生有弄虚作假等违纪、作弊、反馈不实信息影响他人录取或其他不诚信行为，一经认定，将依照国家、学校相关规定，根据查实时间取消其考试成绩、录取资格、入学资格等,已取得学籍者将取消学籍，并报生源省级招生考试机构。
+</text>
+<view class="mask"></view>

@@ -1,0 +1,48 @@
+<!--pages/fapiao/fapiao.wxml-->
+<form class="form-list" bindsubmit="formSubmit" bindreset="formReset">
+  <view class="form-item">
+    <view class="lable">发票类型</view>
+    <view class="val {{sexArray[index] ? 'c_333': ''}}">
+      <sole-pick-view name="sex" bindchange="bindPickerChange" range="{{sexArray}}">
+        <view class="picker">
+          {{sexArray[index] || '请选择'}}
+        </view>
+      </sole-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">姓名</view>
+    <view class="val">
+      <input name="username" value="{{inputValue}}" bindinput="bindKeyInput" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">手机号</view>
+    <view class="val">
+      <input name="mobile" maxlength="11" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">所在地区</view>
+    <view class="val {{region ? 'c_333': ''}}">
+      <city-pick-view name="region" mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+        <view class="picker">
+          {{region || '请选择'}}
+        </view>
+      </city-pick-view>
+      <image class="more" src="/images/arrow_right.png"></image>
+    </view>
+  </view>
+  <view class="form-item">
+    <textarea name="area" value="{{inputValue2}}" bindinput="bindKeyInput2" class="input"
+              placeholder-class="input-placeholder"  placeholder="详细地址：如道路、门牌号、小区、楼栋号、单元室等"/>
+  </view>
+  <view class="form-item">
+    <view class="lable">邮箱</view>
+    <view class="val">
+      <input name="email" class="input" placeholder-class="input-placeholder"  placeholder="请输入"/>
+    </view>
+  </view>
+  <button class="save" formType="submit">提交</button>
+</form>

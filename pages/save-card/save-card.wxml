@@ -1,0 +1,14 @@
+<!--pages/save-card/save-card.wxml-->
+<view class="haeder">
+  <image class="bg-img" src="/images/top.png"></image>
+  <view class="info">
+    请立即打印并<text>自行打印</text>准考证，考试时持A4尺寸准考证、统考证和身份证，严格按照准考证上的时间参加考试
+  </view>
+</view>
+<view wx:if="{{image}}">
+  <image class="card" src="{{image}}" mode="aspectFit"></image>
+  <view class="save-btn" bindtap="saveImage">下载并保存</view>
+  <painter customStyle='position: absolute; left: -9999rpx;' palette="{{template}}" bind:imgOK="onImgOK" widthPixels="1000"/>
+</view>
+<view wx:if="{{!image}}" class="no-default">暂无数据</view>
+

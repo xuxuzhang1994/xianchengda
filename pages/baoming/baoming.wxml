@@ -1,0 +1,33 @@
+<!--pages/baoming/baoming.wxml-->
+<view>
+  <image class="header" mode="aspectFill" src="/images/baoming/tu.png"></image>
+</view>
+<view class="baoming-list">
+  <view class="item" wx:if="{{is_show}}" data-type="3" bindtap="go">
+    <image class="bg-img" src="/images/baoming/2.png" ></image>
+    <image class="logo" mode="aspectFit" src="/images/baoming/zhengce.png"></image>
+    <view class="info">
+      <view class="title">表演专业报名</view>
+      <view class="disc">“港澳台侨”考生报考表演（服装设计与表演方向）专业，在西安考点报名考试。</view>
+    </view>
+    <view class="more">我要报名</view>
+  </view>
+  <view class="item" data-type="2" bindtap="go">
+    <image class="bg-img" src="/images/baoming/3.png"></image>
+    <image class="logo" mode="aspectFit" src="/images/baoming/baoming.png"></image>
+    <view class="info">
+      <view class="title">西安工程大学2020年表演专业校考报名须知</view>
+      <view class="disc line-clamp-1">我校2020年在郑州、晋中、哈尔滨、石家庄、兰州、西安等6个城市设置表演（服装设计与表演方向）专业报名考试点。</view>
+    </view>
+    <view class="more">查看更多</view>
+  </view>
+  <view class="item" data-type="4" data-id="{{item.id}}" bindtap="go" wx:for="{{noticeList}}">
+    <image class="bg-img" src="/images/baoming/3.png"></image>
+    <image class="logo" mode="aspectFit" src="/images/notice.jpeg"></image>
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <view class="disc">{{item.des}}</view>
+    </view>
+    <view class="more">查看更多</view>
+  </view>
+</view>

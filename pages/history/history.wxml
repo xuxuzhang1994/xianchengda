@@ -1,0 +1,39 @@
+<!--pages/history/history.wxml-->
+<view class="bg">
+  <image class="header" src="/images/top2.png"></image>
+  <view class="name">
+    <image class="" src="/images/logo.png"></image>
+    西安工程大学
+  </view>
+</view>
+<view class="form">
+  <view class="title">历年成绩查询</view>
+  <view class="form-item">
+    <image class="icon" src="/images/history/sheng.png"></image>
+    <sole-pick-view bindchange="bindPickerChange" value="{{province}}" range="{{shengArray}}">
+      <view class="picker {{province?'c_333':''}}">
+        {{province? province: "请选择省份"}}
+      </view>
+    </sole-pick-view>
+    <image class="more" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="form-item">
+    <image class="icon" src="/images/history/zhunye.png"></image>
+    <sole-pick-view bindchange="bindPickerChangeZhuanye" value="{{zy}}" range="{{zhuanyeArray}}">
+      <view class="picker {{zy?'c_333':''}}">
+        {{zy? zy: "请选择专业"}}
+      </view>
+    </sole-pick-view>
+    <image class="more" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="form-item">
+    <image class="icon" src="/images/history/year.png"></image>
+    <sole-pick-view bindchange="bindPickerChangeYear" value="{{year}}" range="{{yearsArray}}">
+      <view class="picker {{year?'c_333':''}}">
+        {{year? year: "请选择年份"}}
+      </view>
+    </sole-pick-view>
+    <image class="more" src="/images/arrow_right.png"></image>
+  </view>
+  <view class="search" bindtap="search">查询</view>
+</view>

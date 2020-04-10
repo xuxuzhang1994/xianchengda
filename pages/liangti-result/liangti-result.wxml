@@ -1,0 +1,74 @@
+<view class="form-list" wx:if="{{info.card_number}}">
+  <view class="form-item">
+    <view class="lable">身份证号</view>
+    <view class="val">
+      {{info.card_number}}
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">身高</view>
+    <view class="val">
+      {{info.shenggao}}cm
+    </view></view>
+  <view class="form-item">
+    <view class="lable">体重</view>
+    <view class="val">
+      {{info.tizhong}}kg
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">肩宽</view>
+    <view class="val">
+      {{info.jiankuang}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">胸围</view>
+    <view class="val">
+      {{info.xiongwei}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">腰围</view>
+    <view class="val">
+      {{info.yaowei}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">臀围</view>
+    <view class="val">
+      {{info.tongwei}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">大腿围</view>
+    <view class="val">
+      {{info.datuiwei}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">小腿围</view>
+    <view class="val">
+      {{info.xiaotuiwei}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">上身长</view>
+    <view class="val">
+      {{info.shangshenchang}}cm
+    </view>
+  </view>
+  <view class="form-item">
+    <view class="lable">下身长</view>
+    <view class="val">
+      {{info.xiashenchang}}cm
+    </view>
+  </view>
+</view>
+<button class="save" wx:if="{{info.card_number}}" bindtap="submit">确认</button>
+<view class="no-data" wx:if="{{!info.card_number}}">
+  <image src="/images/kong.png" mode="widthFix"></image>
+  <view>
+    您还没有填写数据哦！
+  </view>
+</view>

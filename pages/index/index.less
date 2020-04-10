@@ -1,0 +1,202 @@
+.home{
+  #myVideo{
+    width: 100%;
+    height: 350rpx;
+    display: -webkit-box;
+  }
+  .slogn{
+    background: #ffffff;
+    width: 100%;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    margin-bottom: 15rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image{
+      //width: 600rpx;
+      height: 50rpx;
+    }
+  }
+  .info{
+    padding: 0 20rpx;
+    background: #ffffff;
+    .title{
+      position: relative;
+      height: 90rpx;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      justify-content: center;
+      z-index: 2;
+      padding: 10rpx 0;
+      text{
+        position: relative;
+      }
+      .bg-img{
+        position: absolute;
+        height: 70rpx;
+        width: 100%;
+        top: 10rpx;
+        left: 0;
+      }
+    }
+    .detail{
+      display: flex;
+      border-top: 1px solid #eee;
+      padding: 20rpx 0;
+      .logo{
+        max-width: 330rpx;
+        min-width: 330rpx;
+        height: 230rpx;
+        margin-right: 15rpx;
+      }
+      .text-info{
+        position: relative;
+        //.text{
+        //  text-indent:2em;
+        //  flex-grow: 1;
+        //  overflow: hidden;
+        //  text-overflow: ellipsis;
+        //  display: -webkit-box;
+        //  -webkit-line-clamp: 6;
+        //  -webkit-box-orient: vertical;
+        //  word-break: break-all;
+        //  &:after{
+        //    content: ">>";
+        //    color:  rgb(69,155,254);
+        //    position: absolute;
+        //    right: -15rpx;
+        //    bottom: 0;
+        //  }
+        //}
+        .text{
+          position: relative;
+          overflow: hidden;
+          height: 240rpx;
+          line-height: 40rpx;
+          word-break: break-all;
+          font-size: 28rpx;
+          text-indent:2em;
+          &:after{
+            content: "... >>";
+            color:  rgb(69,155,254);
+            position: absolute;
+            right: 0rpx;
+            bottom: 0;
+            display: inline-block;
+            width: 200rpx;
+            text-align: right;
+            padding-right: 20rpx;
+            background: linear-gradient(to right, rgba(255,255,255,0.55), #fff 55%);
+          }
+        }
+        .more{
+          position: absolute;
+          background: rgb(69,155,254);
+          color: #ffffff;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 0;
+          border-radius: 10rpx;
+          padding: 2rpx 10rpx;
+          font-size: 26rpx;
+        }
+      }
+    }
+  }
+  .type-list{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:15rpx;
+    margin-top: 20rpx;
+    .type-item{
+      width: 355rpx;
+      position: relative;
+      height: 171rpx;
+      padding-left: 20rpx;
+      padding-top: 25rpx;
+      &:nth-child(1){
+        margin-bottom: 20rpx;
+      }
+      .bg-img{
+        width: 355rpx;
+        height: 171rpx;
+        display: -webkit-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .name-cn{
+        font-weight: bold;
+        font-size: 30rpx;
+        position: relative;
+      }
+      .name-en{
+        color: #999999;
+        font-size: 24rpx;
+        position: relative;
+        word-break: break-all;
+        line-height: 1.1;
+        display: inline-block;
+      }
+      .more1{
+        font-size: 24rpx;
+         width: 78rpx;
+         height: 33rpx;
+         line-height: 33rpx;
+         text-align: center;
+         border-radius: 7rpx;
+         position: absolute;
+         background:rgba(140,208,255,0.5);
+         color: #139EFF;
+        bottom: 12rpx;
+        left: 20rpx;
+       }
+      .more2{
+        font-size: 24rpx;
+        width: 78rpx;
+        height: 33rpx;
+        line-height: 33rpx;
+        text-align: center;
+        border-radius: 7rpx;
+        position: absolute;
+        background:rgba(112,143,255,.2);
+        color: #708FFF;
+        bottom: 12rpx;
+        left: 20rpx;
+      }
+      .more3{
+        font-size: 24rpx;
+        width: 78rpx;
+        height: 33rpx;
+        line-height: 33rpx;
+        text-align: center;
+        border-radius: 7rpx;
+        position: absolute;
+        background:rgba(254,119,171,.25);
+        color: #FE77AB;
+        bottom: 12rpx;
+        left: 20rpx;
+      }
+      .more4{
+        font-size: 24rpx;
+        width: 78rpx;
+        height: 33rpx;
+        line-height: 33rpx;
+        text-align: center;
+        border-radius: 7rpx;
+        position: absolute;
+        background:rgba(253,207,45,.21);
+        color: #FDCF2D;
+        bottom: 12rpx;
+        left: 20rpx;
+      }
+    }
+  }
+}
+
+

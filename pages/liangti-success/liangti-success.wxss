@@ -1,0 +1,34 @@
+.save {
+  width: 700rpx !important;
+  margin-top: 70rpx !important;
+  margin-left: 25rpx !important;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 10rpx;
+  background: #459bfe;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 0;
+  position: fixed;
+  bottom: 20rpx;
+}
+.img {
+  width: 200rpx;
+  margin: 0 auto;
+}
+.img-box {
+  background: #ffffff;
+  text-align: center;
+  height: 400rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.disc {
+  margin-top: 20rpx;
+  color: #459bfe;
+  width: 100%;
+  font-size: 36rpx;
+}

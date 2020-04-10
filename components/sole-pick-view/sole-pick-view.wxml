@@ -1,0 +1,16 @@
+<view class="picker-view-component" wx:if="{{show}}">
+  <view class="mask"></view>
+  <view class="content">
+    <view class="top-bar">
+      <view class="" bindtap="onCancel">取消</view>
+      <view class="ok" bindtap="onOk">确定</view>
+    </view>
+    <picker-view class="picker-view" indicator-style="height: 50px;" value="{{value}}"
+                 bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{range}}" style="line-height: 50px">{{rangeKey ? item[rangeKey] : item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
+<slot bindtap="showTogger"></slot>

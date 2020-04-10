@@ -1,0 +1,6 @@
+<view class="upload-card">
+  <view class="title">请拍摄/上传您的二代身份证</view>
+  <image class="card1" src="{{card_a || '/images/card/1.png'}}" bindtap="chooseCard1"></image>
+  <image class="card2" src="{{card_b || '/images/card/2.png'}}" bindtap="chooseCard2"></image>
+  <view class="save" bindtap="save">确认</view>
+</view>

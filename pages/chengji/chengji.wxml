@@ -1,0 +1,18 @@
+<!--pages/chengji/chengji.wxml-->
+<view class="header">
+  <image class="bg-img" src="/images/top.png"></image>
+  <view class="user-info">
+    <image class="logo" src="/images/mine/touxiang.png"></image>
+    <view class="name">{{info.username}}的成绩单</view>
+  </view>
+</view>
+<view class="card-num">准考证号：{{info.exam_number}}</view>
+<view class="time-list">
+  <view class="title">{{info.date}}</view>
+  <view class="subject-list">
+    <view class="subject-item" wx:for="{{info.score_list}}">
+      <view class="name">{{item.name}}</view>
+      <view class="score">{{item.score}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+.list {
+  background: #ffffff;
+  margin: 15rpx;
+  border-radius: 10rpx;
+}
+.list .item {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.list .item .title {
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list .item .title image {
+  width: 50rpx;
+  height: 50rpx;
+  transition: 0.3s;
+}
+.list .item .disc {
+  color: #999999;
+}
+.rote {
+  transform: rotateZ(90deg);
+}

@@ -1,0 +1,6 @@
+<!--pages/liangti-success/liangti-success.wxml-->
+<view class="img-box">
+  <image class="img" src="/images/chenggong.png" mode="widthFix"></image>
+  <view class="disc">量体提交成功!</view>
+</view>
+<button class="save" bindtap="save">确定</button>

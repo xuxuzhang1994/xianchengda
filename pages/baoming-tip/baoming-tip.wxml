@@ -1,0 +1,6 @@
+<!--pages/baoming-tip/baoming-tip.wxml-->
+<rich-text nodes="{{info}}"></rich-text>
+<view class="choose">
+  <checkbox checked="{{checked}}" color="#459bfe" bindtap="checkboxChange"/>我已阅读并承诺按相关要求参加考试
+  <view class="save {{checked? '':'disabled'}}" bindtap="go">下一步</view>
+</view>

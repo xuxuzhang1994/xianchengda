@@ -1,0 +1,12 @@
+<!--pages/zhuanye-list/zhuanye-list.wxml-->
+<view class="list">
+  <view class="item" data-id="{{item.id}}" wx:for="{{list}}" bindtap="goDetail">
+    <image class="logo" src="{{item.cover_pic}}"></image>
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <view class="disc">
+        {{item.des}}
+      </view>
+    </view>
+  </view>
+</view>

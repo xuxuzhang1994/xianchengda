@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/baoming/baoming",
+    "pages/zhuanye-list/zhuanye-list",
+    "pages/form-step1/form-step1",
+    "pages/form-step2/form-step2",
+    "pages/status/status",
+    "pages/chengji/chengji",
+    "pages/rich-text/rich-text",
+    "pages/formdata/formdata",
+    "pages/history/history",
+    "pages/history-list/history-list",
+    "pages/save-card/save-card",
+    "pages/confrim-pay",
+    "pages/confrim-pay/confrim-pay",
+    "pages/chengji-search/chengji-search",
+    "pages/baoming-tip/baoming-tip",
+    "pages/fapiao/fapiao",
+    "pages/help/help",
+    "pages/lianxi/lianxi",
+    "pages/pay-success/pay-success",
+    "pages/upload-card/upload-card",
+    "pages/web-view/web-view",
+    "pages/liangti-form/liangti-form",
+    "pages/liangti-success/liangti-success",
+    "pages/liangti-result/liangti-result",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "高校圈中圈",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/home/shouye-hei.png",
+        "selectedIconPath": "/images/home/shouye-lan.png",
+        "selectedColor": "#459bfe",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/baoming/baoming",
+        "iconPath": "/images/home/zaixianbaoming-hei.png",
+        "selectedIconPath": "/images/home/zaixianbaoming-lan.png",
+        "selectedColor": "#459bfe",
+        "text": "表演专业报名"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/home/wode-hei.png",
+        "selectedIconPath": "/images/home/wode-lan.png",
+        "selectedColor": "#459bfe",
+        "color": "#459bfe",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
