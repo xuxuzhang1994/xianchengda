@@ -65,7 +65,7 @@ Page({
   },
 	save: function () {
 		wx.showModal({
-			content: "请各位考生将考试资料上传到学校邮箱",
+      content: "请考生及时关注我校招生信息网发布的《西安工程大学2020年表演专业校考考试指南",
 			confirmColor: "#459bfe",
 			success: (res =>{
 				if(res.confirm){

@@ -18,19 +18,19 @@
     <image class="more" src="/images/arrow_right.png"></image>
   </view>
   <view class="form-item">
-    <image class="icon" src="/images/history/zhunye.png"></image>
-    <sole-pick-view bindchange="bindPickerChangeZhuanye" value="{{zy}}" range="{{zhuanyeArray}}">
-      <view class="picker {{zy?'c_333':''}}">
-        {{zy? zy: "请选择专业"}}
+    <image class="icon" src="/images/history/year.png"></image>
+    <sole-pick-view bindchange="bindPickerChangeYear" value="{{year}}" range="{{yearsArray}}">
+      <view class="picker {{year?'c_333':''}}">
+        {{year? year: "请选择年份"}}
       </view>
     </sole-pick-view>
     <image class="more" src="/images/arrow_right.png"></image>
   </view>
   <view class="form-item">
-    <image class="icon" src="/images/history/year.png"></image>
-    <sole-pick-view bindchange="bindPickerChangeYear" value="{{year}}" range="{{yearsArray}}">
-      <view class="picker {{year?'c_333':''}}">
-        {{year? year: "请选择年份"}}
+    <image class="icon" src="/images/history/kelei.png"></image>
+    <sole-pick-view bindchange="bindPickerChangeZhuanye" value="{{zy}}" range="{{zhuanyeArray}}">
+      <view class="picker {{zy?'c_333':''}}">
+        {{zy? zy: "请选择科类"}}
       </view>
     </sole-pick-view>
     <image class="more" src="/images/arrow_right.png"></image>

@@ -16,10 +16,12 @@ Page({
 			'2019',
 		],
 		zhuanyeArray: [
-			'表演(服装设计与表演方向)',
-			'播音与主持艺术',
-			'广播电视编导',
-			'设计学类'
+			// '表演(服装设计与表演方向)',
+			// '播音与主持艺术',
+			// '广播电视编导',
+			// '设计学类'
+			'文科',
+			'理科',
 		]
 	},
 
@@ -88,7 +90,7 @@ Page({
 		}
 		if(!this.data.zy){
 			wx.showToast({
-				title: '请选择专业',
+				title: '请选择科类',
 				icon: 'none'
 			})
 			return false
@@ -133,7 +135,7 @@ Page({
 			self.setData({
 				shengArray: data.data.province,
 				yearsArray: data.data.year,
-				zhuanyeArray: data.data.zhuanye,
+				// zhuanyeArray: data.data.zhuanye,
 			})
 		})
 	}

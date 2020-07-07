@@ -71,7 +71,7 @@ Page({
 	},
 	getData: function () {
 		const self = this
-		get('api/getHistoryScore',{
+		get('api/getHistoryScorev2',{
 			province: this.province,
 			zy: this.zy,
 			date: this.year,

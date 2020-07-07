@@ -60,4 +60,7 @@
     </view>
   </view>
 </view>
-<view class="no-default" wx:if="{{list.length == 0}}">暂无数据</view>
+<view class="no-default" wx:if="{{list.length == 0}}">
+  <image class="no-img" mode="aspectFill" src="/images/history/zanwuneirong.png"></image>
+  <view class="no">暂无内容！</view>
+</view>

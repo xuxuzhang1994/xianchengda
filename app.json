@@ -27,7 +27,14 @@
     "pages/liangti-form/liangti-form",
     "pages/liangti-success/liangti-success",
     "pages/liangti-result/liangti-result",
-    "pages/video/video"
+    "pages/video/video",
+    "pages/about-list1/about-list1",
+    "pages/about-list2/about-list2",
+    "pages/about-list3/about-list3",
+    "pages/about-list4/about-list4",
+    "pages/about-list5/about-list5",
+    "pages/xianchengda/xianchengda",
+    "pages/video-play/video-play"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -45,19 +52,19 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/baoming/baoming",
-        "iconPath": "/images/home/zaixianbaoming-hei.png",
-        "selectedIconPath": "/images/home/zaixianbaoming-lan.png",
+        "pagePath": "pages/xianchengda/xianchengda",
+        "iconPath": "/images/xianchengda-hei.png",
+        "selectedIconPath": "/images/xianchengda-lan.png",
         "selectedColor": "#459bfe",
-        "text": "表演专业报名"
+        "text": "\"鲜橙大\""
       },
       {
-        "pagePath": "pages/mine/mine",
-        "iconPath": "/images/home/wode-hei.png",
-        "selectedIconPath": "/images/home/wode-lan.png",
+        "pagePath": "pages/lianxi/lianxi",
+        "iconPath": "/images/home/zaixianzixun-hei.png",
+        "selectedIconPath": "/images/home/zaixianzixun-lan.png",
         "selectedColor": "#459bfe",
         "color": "#459bfe",
-        "text": "我的"
+        "text": "在线咨询"
       }
     ]
   },

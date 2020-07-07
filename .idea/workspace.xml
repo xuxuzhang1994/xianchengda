@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40d73d82-4f1c-42cb-a00a-de0c83dcd623" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pages/liangti-form/liangti-form.js" afterPath="$PROJECT_DIR$/pages/liangti-form/liangti-form.js" />
+      <change beforePath="$PROJECT_DIR$/pages/liangti-form/liangti-form.wxml" afterPath="$PROJECT_DIR$/pages/liangti-form/liangti-form.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/liangti-form/liangti-form.wxss" afterPath="$PROJECT_DIR$/pages/liangti-form/liangti-form.wxss" />
+      <change beforePath="$PROJECT_DIR$/pages/liangti-result/liangti-result.js" afterPath="$PROJECT_DIR$/pages/liangti-result/liangti-result.js" />
+      <change beforePath="$PROJECT_DIR$/pages/liangti-result/liangti-result.wxss" afterPath="$PROJECT_DIR$/pages/liangti-result/liangti-result.wxss" />
+      <change beforePath="$PROJECT_DIR$/pages/liangti-success/liangti-success.js" afterPath="$PROJECT_DIR$/pages/liangti-success/liangti-success.js" />
+      <change beforePath="$PROJECT_DIR$/pages/mine/mine.js" afterPath="$PROJECT_DIR$/pages/mine/mine.js" />
+      <change beforePath="$PROJECT_DIR$/pages/video/video.js" afterPath="$PROJECT_DIR$/pages/video/video.js" />
+      <change beforePath="$PROJECT_DIR$/pages/video/video.wxml" afterPath="$PROJECT_DIR$/pages/video/video.wxml" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="upload-card.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/upload-card/upload-card.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1138">
+              <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liangti-form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/liangti-form/liangti-form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="482" column="8" lean-forward="false" selection-start-line="482" selection-start-column="4" selection-end-line="482" selection-end-column="8" />
+              <folding>
+                <marker date="1586662826000" expanded="true" signature="4955:5019" ph="{&quot;url&quot;: '/pages/liangti-success/liangti-success'...}" />
+                <marker date="1586662826000" expanded="true" signature="5055:5111" ph="{&quot;title&quot;: data.msg...}" />
+                <marker date="1586662826000" expanded="true" signature="5331:5511" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="5477:5501" ph="{&quot;avatar&quot;: url...}" />
+                <marker date="1586662826000" expanded="true" signature="5589:5775" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="5735:5765" ph="{&quot;zhunkaozheng&quot;: url...}" />
+                <marker date="1586662826000" expanded="true" signature="5844:5890" ph="{&quot;url&quot;: '/pages/upload-card/upload-card'...}" />
+                <marker date="1586662826000" expanded="true" signature="5960:6146" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="6110:6136" ph="{&quot;pic1&quot;: card_a1...}" />
+                <marker date="1586662826000" expanded="true" signature="6216:6402" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="6366:6392" ph="{&quot;pic2&quot;: card_a2...}" />
+                <marker date="1586662826000" expanded="true" signature="6484:6717" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="6634:6660" ph="{&quot;pic3&quot;: card_a3...}" />
+                <marker date="1586662826000" expanded="true" signature="6799:7032" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="6949:6975" ph="{&quot;pic4&quot;: card_a4...}" />
+                <marker date="1586662826000" expanded="true" signature="7145:7381" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="7295:7320" ph="{&quot;pic5&quot;: card_a5...}" />
+                <marker date="1586662826000" expanded="true" signature="7469:7817" ph="{&quot;name&quot;: 'file_name'...}" />
+                <marker date="1586662826000" expanded="true" signature="7613:7656" ph="{&quot;openid&quot;: app.globalData.openid...}" />
+                <marker date="1586662826000" expanded="true" signature="7928:7969" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="8073:8122" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="8183:8238" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="8358:8435" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="8463:8538" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="8653:8764" ph="{&quot;shengArray&quot;: data.data.province...}" />
+                <marker date="1586662826000" expanded="true" signature="8881:8912" ph="{&quot;tableInfo&quot;: data.data...}" />
+                <marker date="1586662826000" expanded="true" signature="9015:9048" ph="{&quot;mingzuArray&quot;: data.data...}" />
+                <marker date="1586662826000" expanded="true" signature="9095:9111" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="9170:9600" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="9272:9289" ph="{&quot;code&quot;: code...}" />
+                <marker date="1586662826000" expanded="true" signature="9439:9490" ph="{&quot;title&quot;: '登录失败'...}" />
+                <marker date="1586662826000" expanded="true" signature="9548:9590" ph="{&quot;title&quot;: res...}" />
+                <marker date="1586662826000" expanded="true" signature="9651:9702" ph="{...}" />
+                <marker date="1586662826000" expanded="true" signature="9745:9779" ph="{&quot;url&quot;: '/pages/video/video'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/video/video.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/video/video.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1764">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1586671592000" expanded="true" signature="81:791" ph="{...}" />
+                <marker date="1586671592000" expanded="true" signature="85:105" ph="/** 页面的初始数据 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="113:118" ph="{...}" />
+                <marker date="1586671592000" expanded="true" signature="122:149" ph="/** 生命周期函数--监听页面加载 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="203:234" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="266:293" ph="/** 生命周期函数--监听页面显示 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="324:351" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="382:409" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="442:475" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="517:543" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="581:603" ph="/** 用户点击右上角分享 ...*/" />
+                <marker date="1586671592000" expanded="true" signature="742:779" ph="{&quot;video&quot;: data.data.cover_pic...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/video/video.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liangti-form.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/liangti-form/liangti-form.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formdata.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7028">
+              <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+              <folding>
+                <marker date="1586599560000" expanded="true" signature="84:6219" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="88:108" ph="/** 页面的初始数据 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="116:341" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="345:372" ph="/** 生命周期函数--监听页面加载 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="401:599" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="467:514" ph="{&quot;formdata&quot;: formdata...}" />
+                <marker date="1586599560000" expanded="true" signature="603:634" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="657:662" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="666:693" ph="/** 生命周期函数--监听页面显示 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="715:720" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="724:751" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="773:778" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="782:809" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="833:838" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="842:875" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="908:913" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="917:943" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="972:977" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="981:1003" ph="/** 用户点击右上角分享 ...*/" />
+                <marker date="1586599560000" expanded="true" signature="1036:1041" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1065:3321" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1125:1207" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1143:1186" ph="{&quot;title&quot;: '请填写姓名'...}" />
+                <marker date="1586599560000" expanded="true" signature="1223:1305" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1241:1284" ph="{&quot;title&quot;: '请填写性别'...}" />
+                <marker date="1586599560000" expanded="true" signature="1320:1402" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1338:1381" ph="{&quot;title&quot;: '请填写民族'...}" />
+                <marker date="1586599560000" expanded="true" signature="1434:1518" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1452:1497" ph="{&quot;title&quot;: '请填写政治面貌'...}" />
+                <marker date="1586599560000" expanded="true" signature="1547:1631" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1565:1610" ph="{&quot;title&quot;: '请选择外语语种'...}" />
+                <marker date="1586599560000" expanded="true" signature="1652:1735" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1670:1714" ph="{&quot;title&quot;: '请选择生源地'...}" />
+                <marker date="1586599560000" expanded="true" signature="1762:1845" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1780:1824" ph="{&quot;title&quot;: '请填写考生号'...}" />
+                <marker date="1586599560000" expanded="true" signature="1869:1952" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1887:1931" ph="{&quot;title&quot;: '请上传准考证'...}" />
+                <marker date="1586599560000" expanded="true" signature="1976:2060" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="1994:2039" ph="{&quot;title&quot;: '请填写身份证号'...}" />
+                <marker date="1586599560000" expanded="true" signature="2079:2162" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2097:2141" ph="{&quot;title&quot;: '请上传身份证'...}" />
+                <marker date="1586599560000" expanded="true" signature="2181:2264" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2199:2243" ph="{&quot;title&quot;: '请上传身份证'...}" />
+                <marker date="1586599560000" expanded="true" signature="2284:2368" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2302:2347" ph="{&quot;title&quot;: '请填写详细地址'...}" />
+                <marker date="1586599560000" expanded="true" signature="2386:2471" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2404:2450" ph="{&quot;title&quot;: '请填写联系电话1'...}" />
+                <marker date="1586599560000" expanded="true" signature="2489:2574" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2507:2553" ph="{&quot;title&quot;: '请填写联系电话2'...}" />
+                <marker date="1586599560000" expanded="true" signature="2595:2677" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="2613:2656" ph="{&quot;title&quot;: '请填写姓名'...}" />
+                <marker date="1586599560000" expanded="true" signature="2680:2808" ph="//..." />
+                <marker date="1586599560000" expanded="true" signature="2812:3304" ph="//..." />
+                <marker date="1586599560000" expanded="true" signature="3343:3457" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3397:3406" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3415:3448" ph="{&quot;mingzuArray&quot;: data.data...}" />
+                <marker date="1586599560000" expanded="true" signature="3481:3675" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3537:3608" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3626:3666" ph="{&quot;langList&quot;: data.data...}" />
+                <marker date="1586599560000" expanded="true" signature="3694:4305" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3789:3892" ph="{&quot;content&quot;: &quot;请认真核对本人信息，一旦提交无法更改&quot;...}" />
+                <marker date="1586599560000" expanded="true" signature="3872:3884" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3893:4290" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="3988:4003" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4014:4184" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4037:4096" ph="{&quot;key&quot;: 'formdata'...}" />
+                <marker date="1586599560000" expanded="true" signature="4119:4175" ph="{&quot;url&quot;: '/pages/confrim-pay/confrim-pay'...}" />
+                <marker date="1586599560000" expanded="true" signature="4189:4276" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4211:4267" ph="{&quot;title&quot;: data.msg...}" />
+                <marker date="1586599560000" expanded="true" signature="4333:4455" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4489:4649" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4543:4575" ph="{&quot;mzindex&quot;: e.detail.value...}" />
+                <marker date="1586599560000" expanded="true" signature="4632:4645" ph="{&quot;info&quot;: info...}" />
+                <marker date="1586599560000" expanded="true" signature="4683:4795" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4761:4791" ph="{&quot;index&quot;: e.detail.value...}" />
+                <marker date="1586599560000" expanded="true" signature="4829:4944" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="4927:4940" ph="{&quot;info&quot;: info...}" />
+                <marker date="1586599560000" expanded="true" signature="4976:5086" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5069:5082" ph="{&quot;info&quot;: info...}" />
+                <marker date="1586599560000" expanded="true" signature="5127:5245" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5228:5241" ph="{&quot;info&quot;: info...}" />
+                <marker date="1586599560000" expanded="true" signature="5280:5548" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5344:5384" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5385:5447" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5517:5534" ph="{&quot;info&quot;: info...}" />
+                <marker date="1586599560000" expanded="false" signature="5579:5989" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5613:5620" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5632:5980" ph="{&quot;name&quot;: 'file_name'...}" />
+                <marker date="1586599560000" expanded="true" signature="5776:5819" ph="{&quot;openid&quot;: app.globalData.openid...}" />
+                <marker date="1586599560000" expanded="true" signature="5838:5974" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="5926:5968" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="6018:6216" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="6078:6087" ph="{...}" />
+                <marker date="1586599560000" expanded="true" signature="6096:6207" ph="{&quot;shengArray&quot;: data.data.province...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formdata.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4788">
+              <caret line="171" column="49" lean-forward="false" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chooseImage</find>
+      <find>所在地：</find>
+      <find>chooseZhunkaozheng</find>
+      <find>play</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="429" />
+    <option name="y" value="73" />
+    <option name="width" value="670" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="liangti-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="liangti-success" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcx" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/小飞兔/Website/Zz_zsb.xpu.edu.cn_1" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40d73d82-4f1c-42cb-a00a-de0c83dcd623" name="Default" comment="" />
+      <created>1586499474529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586499474529</updated>
+      <workItem from="1586499476969" duration="298000" />
+      <workItem from="1586505002600" duration="99000" />
+      <workItem from="1586508479904" duration="4715000" />
+      <workItem from="1586517032533" duration="3190000" />
+    </task>
+    <task id="LOCAL-00001" summary="bug修改">
+      <created>1586505071828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586505071828</updated>
+    </task>
+    <task id="LOCAL-00002" summary="量体模块修改、首页视频模块取消、准考状态页面按钮修改">
+      <created>1586517874407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586517874407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1294719" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bug修改" />
+    <MESSAGE value="量体模块修改、首页视频模块取消、准考状态页面按钮修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="量体模块修改、首页视频模块取消、准考状态页面按钮修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/upload-card/upload-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7028">
+          <caret line="251" column="32" lean-forward="true" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+          <folding>
+            <marker date="1586599560000" expanded="true" signature="84:6219" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="88:108" ph="/** 页面的初始数据 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="116:341" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="345:372" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="401:599" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="467:514" ph="{&quot;formdata&quot;: formdata...}" />
+            <marker date="1586599560000" expanded="true" signature="603:634" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="657:662" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="666:693" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="715:720" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="724:751" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="773:778" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="782:809" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="833:838" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="842:875" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="908:913" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="917:943" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="972:977" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="981:1003" ph="/** 用户点击右上角分享 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="1036:1041" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1065:3321" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1125:1207" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1143:1186" ph="{&quot;title&quot;: '请填写姓名'...}" />
+            <marker date="1586599560000" expanded="true" signature="1223:1305" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1241:1284" ph="{&quot;title&quot;: '请填写性别'...}" />
+            <marker date="1586599560000" expanded="true" signature="1320:1402" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1338:1381" ph="{&quot;title&quot;: '请填写民族'...}" />
+            <marker date="1586599560000" expanded="true" signature="1434:1518" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1452:1497" ph="{&quot;title&quot;: '请填写政治面貌'...}" />
+            <marker date="1586599560000" expanded="true" signature="1547:1631" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1565:1610" ph="{&quot;title&quot;: '请选择外语语种'...}" />
+            <marker date="1586599560000" expanded="true" signature="1652:1735" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1670:1714" ph="{&quot;title&quot;: '请选择生源地'...}" />
+            <marker date="1586599560000" expanded="true" signature="1762:1845" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1780:1824" ph="{&quot;title&quot;: '请填写考生号'...}" />
+            <marker date="1586599560000" expanded="true" signature="1869:1952" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1887:1931" ph="{&quot;title&quot;: '请上传准考证'...}" />
+            <marker date="1586599560000" expanded="true" signature="1976:2060" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1994:2039" ph="{&quot;title&quot;: '请填写身份证号'...}" />
+            <marker date="1586599560000" expanded="true" signature="2079:2162" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2097:2141" ph="{&quot;title&quot;: '请上传身份证'...}" />
+            <marker date="1586599560000" expanded="true" signature="2181:2264" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2199:2243" ph="{&quot;title&quot;: '请上传身份证'...}" />
+            <marker date="1586599560000" expanded="true" signature="2284:2368" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2302:2347" ph="{&quot;title&quot;: '请填写详细地址'...}" />
+            <marker date="1586599560000" expanded="true" signature="2386:2471" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2404:2450" ph="{&quot;title&quot;: '请填写联系电话1'...}" />
+            <marker date="1586599560000" expanded="true" signature="2489:2574" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2507:2553" ph="{&quot;title&quot;: '请填写联系电话2'...}" />
+            <marker date="1586599560000" expanded="true" signature="2595:2677" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2613:2656" ph="{&quot;title&quot;: '请填写姓名'...}" />
+            <marker date="1586599560000" expanded="true" signature="2680:2808" ph="//..." />
+            <marker date="1586599560000" expanded="true" signature="2812:3304" ph="//..." />
+            <marker date="1586599560000" expanded="true" signature="3343:3457" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3397:3406" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3415:3448" ph="{&quot;mingzuArray&quot;: data.data...}" />
+            <marker date="1586599560000" expanded="true" signature="3481:3675" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3537:3608" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3626:3666" ph="{&quot;langList&quot;: data.data...}" />
+            <marker date="1586599560000" expanded="true" signature="3694:4305" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3789:3892" ph="{&quot;content&quot;: &quot;请认真核对本人信息，一旦提交无法更改&quot;...}" />
+            <marker date="1586599560000" expanded="true" signature="3872:3884" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3893:4290" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3988:4003" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4014:4184" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4037:4096" ph="{&quot;key&quot;: 'formdata'...}" />
+            <marker date="1586599560000" expanded="true" signature="4119:4175" ph="{&quot;url&quot;: '/pages/confrim-pay/confrim-pay'...}" />
+            <marker date="1586599560000" expanded="true" signature="4189:4276" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4211:4267" ph="{&quot;title&quot;: data.msg...}" />
+            <marker date="1586599560000" expanded="true" signature="4333:4455" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4489:4649" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4543:4575" ph="{&quot;mzindex&quot;: e.detail.value...}" />
+            <marker date="1586599560000" expanded="true" signature="4632:4645" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="4683:4795" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4761:4791" ph="{&quot;index&quot;: e.detail.value...}" />
+            <marker date="1586599560000" expanded="true" signature="4829:4944" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4927:4940" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="4976:5086" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5069:5082" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="5127:5245" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5228:5241" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="5280:5548" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5344:5384" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5385:5447" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5517:5534" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="false" signature="5579:5989" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5613:5620" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5632:5980" ph="{&quot;name&quot;: 'file_name'...}" />
+            <marker date="1586599560000" expanded="true" signature="5776:5819" ph="{&quot;openid&quot;: app.globalData.openid...}" />
+            <marker date="1586599560000" expanded="true" signature="5838:5974" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5926:5968" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6018:6216" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6078:6087" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6096:6207" ph="{&quot;shengArray&quot;: data.data.province...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="171" column="49" lean-forward="false" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/history-list/history-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form-step1/form-step1.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form-step2/form-step2.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="171" column="49" lean-forward="false" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/formdata/formdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7028">
+          <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+          <folding>
+            <marker date="1586599560000" expanded="true" signature="84:6219" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="88:108" ph="/** 页面的初始数据 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="116:341" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="345:372" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="401:599" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="467:514" ph="{&quot;formdata&quot;: formdata...}" />
+            <marker date="1586599560000" expanded="true" signature="603:634" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="657:662" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="666:693" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="715:720" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="724:751" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="773:778" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="782:809" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="833:838" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="842:875" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="908:913" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="917:943" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="972:977" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="981:1003" ph="/** 用户点击右上角分享 ...*/" />
+            <marker date="1586599560000" expanded="true" signature="1036:1041" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1065:3321" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1125:1207" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1143:1186" ph="{&quot;title&quot;: '请填写姓名'...}" />
+            <marker date="1586599560000" expanded="true" signature="1223:1305" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1241:1284" ph="{&quot;title&quot;: '请填写性别'...}" />
+            <marker date="1586599560000" expanded="true" signature="1320:1402" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1338:1381" ph="{&quot;title&quot;: '请填写民族'...}" />
+            <marker date="1586599560000" expanded="true" signature="1434:1518" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1452:1497" ph="{&quot;title&quot;: '请填写政治面貌'...}" />
+            <marker date="1586599560000" expanded="true" signature="1547:1631" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1565:1610" ph="{&quot;title&quot;: '请选择外语语种'...}" />
+            <marker date="1586599560000" expanded="true" signature="1652:1735" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1670:1714" ph="{&quot;title&quot;: '请选择生源地'...}" />
+            <marker date="1586599560000" expanded="true" signature="1762:1845" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1780:1824" ph="{&quot;title&quot;: '请填写考生号'...}" />
+            <marker date="1586599560000" expanded="true" signature="1869:1952" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1887:1931" ph="{&quot;title&quot;: '请上传准考证'...}" />
+            <marker date="1586599560000" expanded="true" signature="1976:2060" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="1994:2039" ph="{&quot;title&quot;: '请填写身份证号'...}" />
+            <marker date="1586599560000" expanded="true" signature="2079:2162" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2097:2141" ph="{&quot;title&quot;: '请上传身份证'...}" />
+            <marker date="1586599560000" expanded="true" signature="2181:2264" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2199:2243" ph="{&quot;title&quot;: '请上传身份证'...}" />
+            <marker date="1586599560000" expanded="true" signature="2284:2368" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2302:2347" ph="{&quot;title&quot;: '请填写详细地址'...}" />
+            <marker date="1586599560000" expanded="true" signature="2386:2471" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2404:2450" ph="{&quot;title&quot;: '请填写联系电话1'...}" />
+            <marker date="1586599560000" expanded="true" signature="2489:2574" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2507:2553" ph="{&quot;title&quot;: '请填写联系电话2'...}" />
+            <marker date="1586599560000" expanded="true" signature="2595:2677" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="2613:2656" ph="{&quot;title&quot;: '请填写姓名'...}" />
+            <marker date="1586599560000" expanded="true" signature="2680:2808" ph="//..." />
+            <marker date="1586599560000" expanded="true" signature="2812:3304" ph="//..." />
+            <marker date="1586599560000" expanded="true" signature="3343:3457" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3397:3406" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3415:3448" ph="{&quot;mingzuArray&quot;: data.data...}" />
+            <marker date="1586599560000" expanded="true" signature="3481:3675" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3537:3608" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3626:3666" ph="{&quot;langList&quot;: data.data...}" />
+            <marker date="1586599560000" expanded="true" signature="3694:4305" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3789:3892" ph="{&quot;content&quot;: &quot;请认真核对本人信息，一旦提交无法更改&quot;...}" />
+            <marker date="1586599560000" expanded="true" signature="3872:3884" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3893:4290" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="3988:4003" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4014:4184" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4037:4096" ph="{&quot;key&quot;: 'formdata'...}" />
+            <marker date="1586599560000" expanded="true" signature="4119:4175" ph="{&quot;url&quot;: '/pages/confrim-pay/confrim-pay'...}" />
+            <marker date="1586599560000" expanded="true" signature="4189:4276" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4211:4267" ph="{&quot;title&quot;: data.msg...}" />
+            <marker date="1586599560000" expanded="true" signature="4333:4455" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4489:4649" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4543:4575" ph="{&quot;mzindex&quot;: e.detail.value...}" />
+            <marker date="1586599560000" expanded="true" signature="4632:4645" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="4683:4795" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4761:4791" ph="{&quot;index&quot;: e.detail.value...}" />
+            <marker date="1586599560000" expanded="true" signature="4829:4944" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="4927:4940" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="4976:5086" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5069:5082" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="5127:5245" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5228:5241" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="true" signature="5280:5548" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5344:5384" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5385:5447" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5517:5534" ph="{&quot;info&quot;: info...}" />
+            <marker date="1586599560000" expanded="false" signature="5579:5989" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5613:5620" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5632:5980" ph="{&quot;name&quot;: 'file_name'...}" />
+            <marker date="1586599560000" expanded="true" signature="5776:5819" ph="{&quot;openid&quot;: app.globalData.openid...}" />
+            <marker date="1586599560000" expanded="true" signature="5838:5974" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="5926:5968" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6018:6216" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6078:6087" ph="{...}" />
+            <marker date="1586599560000" expanded="true" signature="6096:6207" ph="{&quot;shengArray&quot;: data.data.province...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/upload-card/upload-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1138">
+          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liangti-form/liangti-form.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liangti-form/liangti-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="482" column="8" lean-forward="false" selection-start-line="482" selection-start-column="4" selection-end-line="482" selection-end-column="8" />
+          <folding>
+            <marker date="1586662826000" expanded="true" signature="4955:5019" ph="{&quot;url&quot;: '/pages/liangti-success/liangti-success'...}" />
+            <marker date="1586662826000" expanded="true" signature="5055:5111" ph="{&quot;title&quot;: data.msg...}" />
+            <marker date="1586662826000" expanded="true" signature="5331:5511" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="5477:5501" ph="{&quot;avatar&quot;: url...}" />
+            <marker date="1586662826000" expanded="true" signature="5589:5775" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="5735:5765" ph="{&quot;zhunkaozheng&quot;: url...}" />
+            <marker date="1586662826000" expanded="true" signature="5844:5890" ph="{&quot;url&quot;: '/pages/upload-card/upload-card'...}" />
+            <marker date="1586662826000" expanded="true" signature="5960:6146" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="6110:6136" ph="{&quot;pic1&quot;: card_a1...}" />
+            <marker date="1586662826000" expanded="true" signature="6216:6402" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="6366:6392" ph="{&quot;pic2&quot;: card_a2...}" />
+            <marker date="1586662826000" expanded="true" signature="6484:6717" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="6634:6660" ph="{&quot;pic3&quot;: card_a3...}" />
+            <marker date="1586662826000" expanded="true" signature="6799:7032" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="6949:6975" ph="{&quot;pic4&quot;: card_a4...}" />
+            <marker date="1586662826000" expanded="true" signature="7145:7381" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="7295:7320" ph="{&quot;pic5&quot;: card_a5...}" />
+            <marker date="1586662826000" expanded="true" signature="7469:7817" ph="{&quot;name&quot;: 'file_name'...}" />
+            <marker date="1586662826000" expanded="true" signature="7613:7656" ph="{&quot;openid&quot;: app.globalData.openid...}" />
+            <marker date="1586662826000" expanded="true" signature="7928:7969" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="8073:8122" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="8183:8238" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="8358:8435" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="8463:8538" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="8653:8764" ph="{&quot;shengArray&quot;: data.data.province...}" />
+            <marker date="1586662826000" expanded="true" signature="8881:8912" ph="{&quot;tableInfo&quot;: data.data...}" />
+            <marker date="1586662826000" expanded="true" signature="9015:9048" ph="{&quot;mingzuArray&quot;: data.data...}" />
+            <marker date="1586662826000" expanded="true" signature="9095:9111" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="9170:9600" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="9272:9289" ph="{&quot;code&quot;: code...}" />
+            <marker date="1586662826000" expanded="true" signature="9439:9490" ph="{&quot;title&quot;: '登录失败'...}" />
+            <marker date="1586662826000" expanded="true" signature="9548:9590" ph="{&quot;title&quot;: res...}" />
+            <marker date="1586662826000" expanded="true" signature="9651:9702" ph="{...}" />
+            <marker date="1586662826000" expanded="true" signature="9745:9779" ph="{&quot;url&quot;: '/pages/video/video'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1764">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1586671592000" expanded="true" signature="81:791" ph="{...}" />
+            <marker date="1586671592000" expanded="true" signature="85:105" ph="/** 页面的初始数据 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="113:118" ph="{...}" />
+            <marker date="1586671592000" expanded="true" signature="122:149" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="203:234" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="266:293" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="324:351" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="382:409" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="442:475" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="517:543" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="581:603" ph="/** 用户点击右上角分享 ...*/" />
+            <marker date="1586671592000" expanded="true" signature="742:779" ph="{&quot;video&quot;: data.data.cover_pic...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/video.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/video/video.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

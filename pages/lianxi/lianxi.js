@@ -94,5 +94,13 @@ Page({
 		wx.navigateTo({
 			url: `/pages/web-view/web-view?src=` + this.data.contact.xiaoyuan_site
 		})
+	},
+	getData: function () {
+		const self = this
+		get('api/getContactV2').then(data => {
+			self.setData({
+				list: data.data
+			})
+		})
 	}
 })

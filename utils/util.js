@@ -14,8 +14,11 @@ const formatNumber = n => {
 	return n[1] ? n : '0' + n
 }
 
+// const baseURL = 'https://baoming.goboosoft.com/'
+const baseURL = 'https://baoming.boxinyao.com/'
+
 const get = (url,params) =>{
-	url = 'https://baoming.goboosoft.com/' + url
+	url = baseURL + url
 	return new Promise(resolve => {
 		wx.showLoading({
 			title: '加载中...'
@@ -38,7 +41,7 @@ const get = (url,params) =>{
 }
 
 const post = (url,params) =>{
-	url = 'https://baoming.goboosoft.com/' + url
+	url = baseURL + url
 	wx.showLoading({
 		title: '加载中...'
 	})

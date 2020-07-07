@@ -97,8 +97,8 @@ page {
   color: #808080;
 }
 .form-list .form-item .val #avatar {
-  width: 160rpx;
-  height: 179rpx;  
+  width: 120rpx;
+  height: 158rpx;  
 }
 .form-list .form-item .val .danwei {
   position: absolute;
@@ -188,6 +188,6 @@ video {
   display: none;
 }
 .defaultPicture{
-  width: 160rpx;
-  height: 179rpx;  
+  width: 120rpx;
+  height: 158rpx;  
 }

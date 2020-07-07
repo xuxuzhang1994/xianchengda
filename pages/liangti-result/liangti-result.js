@@ -7,13 +7,18 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		info: {}
+		info: {name:'hahahha'}
 	},
 
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
+		// 清空缓存数据
+		this.setData({
+			info: {},
+		})
+		// Object.assign(this.$data, this.$options.data());
 		this.getInfo()
 	},
 
@@ -66,10 +71,12 @@ Page({
 
 	},
 	getInfo: function () {
+		console.log("详情数据加载")
 		const self = this
 		get('/api/searchlt',{
 			openid: app.globalData.openid,
         }).then(data =>{
+					console.log(data.data.card_number)
 			self.setData({
 				info: data.data,
 			})

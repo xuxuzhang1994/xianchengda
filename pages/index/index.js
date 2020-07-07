@@ -104,41 +104,71 @@ Page({
 		let url = ''
 		let exam_info = 0
 		if(index == 0){
-			url = "/api/getschooldes";
-		}
-		if(index == 1){
-			url = "/api/getremark";
-		}
-		if(index == 2){
+			// url = "/api/getschooldes";
+			// wx.setStorage({
+			// 	key: "url",
+			// 	data: url
+			// })
+			// wx.navigateTo({
+			// 	url: '../rich-text/rich-text?exam_info=' + exam_info
+			// })
 			wx.navigateTo({
-				url: '../zhuanye-list/zhuanye-list'
+				url: `../about-list1/about-list1?type=${1}`
 			})
-			return
 		}
-		if(index == 3){
-			exam_info = 1
-			url = "/api/getremark";
+		// if(index == 1){
+		// 	url = "/api/getremark";
+		// }
+		// if(index == 2){
+		// 	wx.navigateTo({
+		// 		url: '../zhuanye-list/zhuanye-list'
+		// 	})
+		// 	return
+		// }
+		// if(index == 3){
+		// 	exam_info = 1
+		// 	url = "/api/getremark";
+		// }
+		// if(index == 4){
+		// 	wx.navigateTo({
+		// 		url: '../history/history'
+		// 	})
+		// 	return
+		// }
+		// if(index == 5){
+		// 	url = "/api/getschooldes";
+		// }
+		// wx.setStorage({
+		// 	key: "url",
+		// 	data: url
+		// })
+		// wx.navigateTo({
+		// 	url: '../rich-text/rich-text?exam_info=' + exam_info
+		// })
+		if(index == 1) {
+			wx.navigateTo({
+				url: `../about-list1/about-list1?type=${2}`
+			})
 		}
-		if(index == 4){
+		if(index == 2) {
+			wx.navigateTo({
+				url: `../about-list1/about-list1?type=${5}`
+			})
+		}
+		if(index == 3) {
+			wx.navigateTo({
+				url: `../about-list1/about-list1?type=${3}`
+			})
+		}
+		if(index == 4) {
 			wx.navigateTo({
 				url: '../history/history'
 			})
-			return
 		}
-		if(index == 5){
-			url = "/api/getschooldes";
-		}
-		wx.setStorage({
-			key: "url",
-			data: url
-		})
-		wx.navigateTo({
-			url: '../rich-text/rich-text?exam_info=' + exam_info
-		})
 	},
 	getData: function () {
 		const self = this
-		get('/api/getinfo',{
+		get('/api/getinfov2',{
 			openid: wx.getStorageSync('openid')
 		}).then(data =>{
 			if(data.code == 0){
@@ -148,6 +178,7 @@ Page({
 					schollInfo: data.data.school,
 					loading: false
 				})
+				app.globalData.map= data.data.map
 				if(data.data.bm_state && !self.data.islook){
 					wx.showTabBarRedDot({
 						index: 2

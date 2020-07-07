@@ -1,6 +1,6 @@
 // pages/video/video.js
 const {
-
+  post, get
 } = require('../../utils/util')
 Page({
 

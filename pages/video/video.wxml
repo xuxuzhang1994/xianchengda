@@ -1,1 +1,2 @@
-<video src="{{video}}" id="myvideo" autoplay></video>
+<!-- <video src="{{video}}" id="myvideo" autoplay></video> -->
+<web-view src='https://baoming.goboosoft.com/liangti.html'></web-view>

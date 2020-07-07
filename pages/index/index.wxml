@@ -1,9 +1,11 @@
 <!--index.wxml-->
 <view class="home" wx:if="{{!loading}}">
-  <!-- <video id="myVideo" poster="{{video_pic}}"
-         wx:if="{{is_show}}"
-         src="{{video}}"></video> -->
-  <view id="myVideo">
+  <video id="myVideo" poster="{{video_pic}}"
+         wx:if="{{video}}"
+         autoplay="{{true}}"
+         controls="{{true}}"
+         src="{{video}}"></video>
+  <view id="myVideo" wx:if="{{!video}}">
     <image src="{{video_pic}}" class="videoImg"></image>
   </view>
   <view class="slogn" wx:if="{{is_show}}">
@@ -28,8 +30,8 @@
   <view class="type-list" wx:if="{{is_show}}">
     <view class="type-item" data-index="1" bindtap="goDetail">
       <image class="bg-img" mode="aspectFill" src="/images/home/1.png"></image>
-      <view class="name-cn">艺术类简章</view>
-      <text class="name-en">ART SYNOPSIS</text>
+      <view class="name-cn">招生简章</view>
+      <text class="name-en">ENROLLMENT \n BRIEF</text>
       <view class="more1">GO>></view>
     </view>
     <view class="type-item" data-index="2" bindtap="goDetail">
@@ -40,14 +42,14 @@
     </view>
     <view class="type-item" data-index="3" bindtap="goDetail">
       <image class="bg-img" mode="aspectFill" src="/images/home/3.png"></image>
-      <view class="name-cn">考试信息</view>
-      <text class="name-en">EXAMINATION \n INFORMATION</text>
+      <view class="name-cn">招生计划</view>
+      <text class="name-en">ENROLLMENT \n PLAN</text>
       <view class="more3">GO>></view>
     </view>
     <view class="type-item" data-index="4" bindtap="goDetail">
       <image class="bg-img" mode="aspectFill" src="/images/home/4.png"></image>
-      <view class="name-cn">历年成绩</view>
-      <text class="name-en">ACHIEVEMENTS \n OVER THE YEARS</text>
+      <view class="name-cn">历年录取</view>
+      <text class="name-en">ADMISSTION \n OVER THE YEARS</text>
       <view class="more4">GO>></view>
     </view>
   </view>

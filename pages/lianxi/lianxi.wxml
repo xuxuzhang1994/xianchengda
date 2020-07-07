@@ -5,14 +5,14 @@
   </view>
 </view>
 <view class="list">
-  <view class="item">
+  <view class="item" wx:for="{{list}}">
     <view class="left">
-      <image src="/images/dizhi.png"></image>
-      <view class="label">联系地址</view>
+      <image src="{{item.icon}}"></image>
+      <view class="label">{{item.title}}</view>
     </view>
-    <view class="val">{{contact.address}}</view>
+    <view class="val">{{item.option_value}}</view>
   </view>
-  <view class="item">
+  <!-- <view class="item">
     <view class="left">
       <image src="/images/youxiang.png"></image>
       <view class="label">邮政编码</view>
@@ -46,5 +46,5 @@
       <view class="label">校园网</view>
     </view>
     <view class="val">{{contact.xiaoyuan_site}}</view>
-  </view>
+  </view> -->
 </view>

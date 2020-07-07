@@ -104,9 +104,45 @@ Page({
 		})
 	},
 	formSubmit: function (e) {
+		// console.log(this.data.pic1Str)
 		console.log('form发生了submit事件，携带数据为：', e.detail.value)
 		const originData = e.detail.value
         const reg = /^\d*\.{0,1}\d{0,1}$/;
+		if(!this.data.pic1){
+			wx.showToast({
+				title: '请上传前全身照片',
+				icon: 'none'
+			})
+			return false
+		}
+		if(!this.data.pic2){
+			wx.showToast({
+				title: '请上传侧全身照片',
+				icon: 'none'
+			})
+			return false
+		}
+		if(!this.data.pic3){
+			wx.showToast({
+				title: '请上传后全身照片',
+				icon: 'none'
+			})
+			return false
+		}
+		if(!this.data.pic4){
+			wx.showToast({
+				title: '请上传前半上身照片',
+				icon: 'none'
+			})
+			return false
+		}
+		if(!this.data.pic5){
+			wx.showToast({
+				title: '请上传脸部特写照片',
+				icon: 'none'
+			})
+			return false
+		}
 		if(!(/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$|^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/).test(originData.card_number)){
 			wx.showToast({
 				title: '请填写正确身份证号',
@@ -190,11 +226,12 @@ Page({
 			...originData,
 			openid
 		}
-		form1Data.pic1 = self.pic1;
-		form1Data.pic2 = self.pic2;
-		form1Data.pic3 = self.pic3;
-		form1Data.pic4 = self.pic4;
-		form1Data.pic5 = self.pic5;
+		form1Data.pic1 = this.data.pic1;
+		form1Data.pic2 = this.data.pic2;
+		form1Data.pic3 = this.data.pic3;
+		form1Data.pic4 = this.data.pic4;
+		form1Data.pic5 = this.data.pic5;
+		console.log(form1Data)
 		wx.showModal({
 			content: "请认真核对本人信息，一旦提交无法更改",
 			confirmColor: "#459bfe",

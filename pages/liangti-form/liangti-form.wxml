@@ -1,18 +1,18 @@
 <!--pages/form-step1/form-step1.wxml-->
 <view class="{{!showCard? '':'hide'}}">
-  <view class="haeder">
-    <image class="bg-img" src="/images/top.png"></image>
-    <image class="biao" src="/images/jiezhi.png"></image>
-    <view class="info">
-      <view class="title">{{tableInfo.school}}</view>
+  <view class="haeder" bindtap="play">
+    <image class="bg-img" src="/images/shipingtu.png"></image>
+    <!-- <image class="biao" src="/images/jiezhi.png"></image> -->
+    <!-- <view class="info"> -->
+      <!-- <view class="title">{{tableInfo.school}}</view> -->
       <!-- <view class="addresss">所在地：{{tableInfo.area}}</view> -->
       <!-- <view class="addresss">报名日期：{{tableInfo.times}}</view> -->
-    </view>
+    <!-- </view> -->
   </view>
-  <view class="video">
+  <!-- <view class="video">
     <image src="/images/shipingtu.png" mode="widthFix" bindtap="play"></image>
-  </view>
-  <view class="uploadTip">上传要求：考生穿着分体式泳装，拍摄彩色照片五张，分别为前全身、侧全身、后全身、前上半身、脸部特写。照片需保证真实性、原始性，不得进行后期加工或修改，照片要求分别率为4800×3600以上，每张照片不得超过10M，按照要求上传！</view>
+  </view> -->
+  <view class="uploadTip">上传要求：考生穿着分体式泳装，拍摄彩色照片五张，分别为前全身、侧全身、后全身、前上半身、脸部特写。照片需保证真实性、原始性，不得进行后期加工或修改，照片要求分辨率为4800×3600以上，每张照片不得超过10M，按照要求上传！</view>
   <form class="form-list" bindsubmit="formSubmit" bindreset="formReset">
      <view class="form-item">
       <view class="lable">上传前全身照片</view>
@@ -57,7 +57,7 @@
                placeholder="请输入"/>
       </view>
     </view>
-    <view class="tip">注意：所有量体数据必须为整数或者一位小数；且不能为空！</view>
+    <view class="tip">注意：量体数据填写前，请观看量体视频，按照量体视频要求进行量体，所有数据必须为整数或者一位小数。</view>
     <view class="form-item">
       <view class="lable">身高</view>
       <view class="val">

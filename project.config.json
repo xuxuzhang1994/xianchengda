@@ -4,27 +4,36 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
+		"enhance": false,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
 		"babelSetting": {
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"nodeModules": true
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
 	"appid": "wxff683fe42373f7f3",
-	"projectname": "guidang",
+	"projectname": "xcx",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -242,6 +251,12 @@
 					"name": "pages/upload-card/upload-card",
 					"pathName": "pages/upload-card/upload-card",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/about-list1/about-list1",
+					"pathName": "pages/about-list1/about-list1",
 					"scene": null
 				}
 			]
