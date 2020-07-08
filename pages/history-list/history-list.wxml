@@ -6,7 +6,22 @@
     <view class="addresss">所在地：{{info.area}}</view>
   </view>
 </view>
-<view class="list" wx:for="{{list}}">
+<view class="table-list">
+  <view class="title">{{list[0].title}}</view>
+  <view class="header">
+    <view class="item">省份</view>
+    <view class="item">年份</view>
+    <view class="item">科类</view>
+    <view class="item">分数线</view>
+  </view>
+  <view class="table-item" wx:for="{{list}}">
+    <view class="item">{{item.province}}</view>
+    <view class="item">{{item.date_year}}</view>
+    <view class="item">{{item.subject}}</view>
+    <view class="item">{{item.score}}</view>
+  </view>
+</view>
+<!-- <view class="list" wx:for="{{list}}">
   <view class="title">{{item.title}}</view>
   <view class="disc">分数线</view>
   <view class="table">
@@ -59,7 +74,7 @@
       <view class="val">{{item.zong_avg_score}}</view>
     </view>
   </view>
-</view>
+</view> -->
 <view class="no-default" wx:if="{{list.length == 0}}">
   <image class="no-img" mode="aspectFill" src="/images/history/zanwuneirong.png"></image>
   <view class="no">暂无内容！</view>

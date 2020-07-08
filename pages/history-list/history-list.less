@@ -83,3 +83,39 @@
     margin-top: 100rpx;
   }
 }
+.table-list{
+  padding: 50rpx;
+  background: #ffffff;
+  text-align: center;
+  margin-top: 20rpx;
+  .title{
+    margin-bottom: 25rpx;
+    font-size: 36rpx;
+  }
+  .header{
+    display: flex;
+    background: rgba(115,171,255,.5);
+    line-height: 70rpx;
+    text-align: center;
+    color: #ffffff;
+    .item{
+      width: 25%;
+      border-right: 1rpx solid #eee;
+    }
+  }
+  .table-item{
+    display: flex;
+    background: #ffffff;
+    line-height: 70rpx;
+    text-align: center;
+    color: #333333;
+    border-bottom: 1rpx solid #eee;
+    .item{
+      width: 25%;
+      border-right: 1rpx solid #eee;
+      &:nth-child(1){
+        border-left: 1rpx solid #eee;
+      }
+    }
+  }
+}

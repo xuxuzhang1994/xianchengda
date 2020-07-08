@@ -79,5 +79,41 @@
 .no-default image {
   width: 500rpx;
   height: 300rpx;
-  margin-top: 200rpx;
+  margin-top: 100rpx;
+}
+.table-list {
+  padding: 50rpx;
+  background: #ffffff;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.table-list .title {
+  margin-bottom: 25rpx;
+  font-size: 36rpx;
+}
+.table-list .header {
+  display: flex;
+  background: rgba(115, 171, 255, 0.5);
+  line-height: 70rpx;
+  text-align: center;
+  color: #ffffff;
+}
+.table-list .header .item {
+  width: 25%;
+  border-right: 1rpx solid #eee;
+}
+.table-list .table-item {
+  display: flex;
+  background: #ffffff;
+  line-height: 70rpx;
+  text-align: center;
+  color: #333333;
+  border-bottom: 1rpx solid #eee;
+}
+.table-list .table-item .item {
+  width: 25%;
+  border-right: 1rpx solid #eee;
+}
+.table-list .table-item .item:nth-child(1) {
+  border-left: 1rpx solid #eee;
 }
