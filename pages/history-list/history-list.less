@@ -84,7 +84,7 @@
   }
 }
 .table-list{
-  padding: 50rpx;
+  padding: 50rpx 20rpx;
   background: #ffffff;
   text-align: center;
   margin-top: 20rpx;
@@ -98,20 +98,36 @@
     line-height: 70rpx;
     text-align: center;
     color: #ffffff;
+    margin-top: 30rpx;
     .item{
-      width: 25%;
+      width: 20%;
+      flex-shrink: 0;
       border-right: 1rpx solid #eee;
+    }
+    .nowrap{
+      white-space: nowrap;
     }
   }
   .table-item{
     display: flex;
     background: #ffffff;
-    line-height: 70rpx;
+    min-height: 70rpx;
+    align-items: center;
     text-align: center;
     color: #333333;
     border-bottom: 1rpx solid #eee;
     .item{
-      width: 25%;
+      width: 20%;
+      flex-shrink: 0;
+      word-break: break-all;
+      border-right: 1rpx solid #eee;
+      &:nth-child(1){
+        border-left: 1rpx solid #eee;
+      }
+    }
+    .item2{
+      flex: 1;
+      word-break: break-all;
       border-right: 1rpx solid #eee;
       &:nth-child(1){
         border-left: 1rpx solid #eee;

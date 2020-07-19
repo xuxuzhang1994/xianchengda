@@ -19,6 +19,9 @@ Page({
 		this.zy = options.zy
 		this.year = options.date
 		this.getData()
+		this.setData({
+			zy: options.zy
+		})
 	},
 
 	/**
@@ -79,7 +82,8 @@ Page({
 			if (data.code == 0) {
 				self.setData({
 					list: data.data.lists,
-					info: data.data.head_info
+					info: data.data.head_info,
+					title: data.data.title
 				})
 			}
 			console.log({data})

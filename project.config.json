@@ -264,6 +264,13 @@
 					"id": -1,
 					"name": "pages/history-list/history-list",
 					"pathName": "pages/history-list/history-list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/history-jihua/history",
+					"pathName": "pages/history-jihua/history",
 					"scene": null
 				}
 			]

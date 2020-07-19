@@ -157,7 +157,7 @@ Page({
 		}
 		if(index == 3) {
 			wx.navigateTo({
-				url: `../about-list1/about-list1?type=${3}`
+				url: `../history-jihua/history`
 			})
 		}
 		if(index == 4) {

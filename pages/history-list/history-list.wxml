@@ -6,19 +6,55 @@
     <view class="addresss">所在地：{{info.area}}</view>
   </view>
 </view>
-<view class="table-list">
-  <view class="title">{{list[0].title}}</view>
+<view class="table-list" wx:if="{{list.length > 0 && zy != '艺术本科综合'}}">
+  <view class="title">{{title}}</view>
   <view class="header">
-    <view class="item">省份</view>
-    <view class="item">年份</view>
-    <view class="item">科类</view>
-    <view class="item">分数线</view>
+    <view class="item">专业名称</view>
+    <view class="item">录取人数</view>
+    <view class="item">最高分</view>
+    <view class="item">最低分</view>
+    <view class="item">平均分</view>
   </view>
   <view class="table-item" wx:for="{{list}}">
-    <view class="item">{{item.province}}</view>
-    <view class="item">{{item.date_year}}</view>
-    <view class="item">{{item.subject}}</view>
-    <view class="item">{{item.score}}</view>
+    <view class="item">{{item.zhuanye_name}}</view>
+    <view class="item">{{item.lqrs}}</view>
+    <view class="item">{{item.max_score}}</view>
+    <view class="item">{{item.min_score}}</view>
+    <view class="item">{{item.zong_avg_score}}</view>
+  </view>
+</view>
+
+<view class="table-list" wx:if="{{list.length > 0 && zy == '艺术本科综合'}}">
+  <view class="title">{{title}}</view>
+  <view class="header">
+    <view class="item">专业名称</view>
+    <view class="item">录取人数</view>
+    <view class="item">文化课最高分</view>
+    <view class="item">文化课最低分</view>
+    <view class="item">文化课平均分</view>
+  </view>
+  <view class="table-item" wx:for="{{list}}">
+    <view class="item">{{item.zhuanye_name}}</view>
+    <view class="item">{{item.lqrs}}</view>
+    <view class="item">{{item.wh_max_score}}</view>
+    <view class="item">{{item.wh_min_score}}</view>
+    <view class="item">{{item.wh_avg_score}}</view>
+  </view>
+  <view class="header">
+    <view class="item2">专业课最高分</view>
+    <view class="item2">专业课最低分</view>
+    <view class="item2 ">专业课平均分</view>
+    <view class="item2 nowrap">最高分</view>
+    <view class="item2 nowrap">最低分</view>
+    <view class="item2 nowrap">平均分</view>
+  </view>
+  <view class="table-item" wx:for="{{list}}">
+    <view class="item2">{{item.zhuanye_max_score}}</view>
+    <view class="item2">{{item.zhuanye_min_score}}</view>
+    <view class="item2">{{item.zhuanye_avg_score}}</view>
+    <view class="item2">{{item.max_score}}</view>
+    <view class="item2">{{item.min_score}}</view>
+    <view class="item2">{{item.zong_avg_score}}</view>
   </view>
 </view>
 <!-- <view class="list" wx:for="{{list}}">
